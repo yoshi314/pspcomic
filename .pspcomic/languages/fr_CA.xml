@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic French official language file for version 1.0
+	By Christophe Rudyj (Kip)
+	This file is public domain
+-->
+<language name="Français Officiel (Canada)" version="1.0.1">
+	<ranges>
+		<range begin="0" end="255" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Mémoire insufisante" />
+		<message id="sdl_error" value="Erreur SDL: %s" />
+		<message id="sdl_image_error" value="Erreur SDL_image: %s" />
+		<message id="sdl_ttf_error" value="Erreur SDL_ttf: %s" />
+		<message id="open_book_error" value="Erreur d'ouverture du livre" />
+		<message id="open_file_error" value="Erreur d'ouverture du fichier %s" />
+		<message id="read_file_error" value="Erreur de lecture du fichier %s" />
+		<message id="load_theme_error" value="Impossible de charger le thème" />
+		<message id="load_page_error" value="Impossible de charger la page dans l'archive" />
+		<message id="load_language_error" value="Impossible de charger la langue" />
+		<message id="language_too_long_error" value="Cette langue ne suporte pas ce thème" />
+		<message id="theme_too_short_error" value="Le thème chargé ne supporte pas cette langue" />
+		<message id="zip_name_too_long_error" value="Le nom de fichier dans l'archive zip est trop long" />
+		<message id="empty_book_error" value="Le livre est vide" />
+		<message id="insert_ms" value="Veuillez inserer un Memory Stick Duo" />
+		<message id="internal_error" value="Erreur interne" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Chargement..." />
+		<message id="closing" value="Fermeture du programme..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Accepter" />
+		<message id="cancel" value="Annuler" />
+		<message id="more_above" value="[Encore]" />
+		<message id="more_below" value="[Encore]" />
+		<message id="go_back" value="&lt; Retour en Arrière" />
+		<message id="reload_menu" value="Réinitialiser le menu" />
+		<message id="theme_preview" value="Appuyez sur la Croix (X) pour sélectionner un thème ou triangle (/\) pour revenir en arrière" />
+		<message id="load_last" value="Ouvrir la dernière bande dessinée" />
+		<message id="load_saved" value="Ouvrir la dernère bande dessinée sauvegardée" />
+		<message id="no_comics" value="Veuillez mettre les bandes dessinée dans le dossier /comics" />
+		<message id="no_themes" value="Vous n'avez pas de thèmes, veuillez remplacer le thème par défaut" />
+		<message id="open_dir" value="Ouvrir le dossier" />
+		<!-- Main menu -->
+		<message id="open_book" value="Ouvrir la bande dessinée..." />
+		<message id="close_book" value="Fermer la bande dessinée" />
+		<message id="next_book" value="Bande dessinée suivante" />
+		<message id="prev_book" value="Bande dessinée précédente" />
+		<message id="jump_page" value="Sauter à la page..." />
+		<message id="load_bookmark" value="Ouvrir le marque pages" />
+		<message id="set_bookmark" value="Mettre un marque pages" />
+		<message id="set_saved" value="Enregistrer la bande dessinée" />
+		<message id="more_bookmark" value="Plus de optionde marque pages" />
+		<message id="config" value="Configuration..." />
+		<message id="about" value="À propos de..." />
+		<message id="quit" value="Quitter" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Méthode de redimension au pixel le plus proche " />
+		<message id="resize_to_resample" value="Méthode de redimension à réchantillionnement" />
+		<message id="adjust_clock" value="Ajuster la fréquence du processeur..." />
+		<message id="adjust_pan" value="Adjuster la vitesse de défillement..." />
+		<message id="enable_zoom_persist" value="Activer la persistance du niveau de zoom" />
+		<message id="disable_zoom_persist" value="Désactiver la persistance du niveau de zoom" />
+		<message id="enable_rotate_persist" value="Activer la persistance de la rotation" />
+		<message id="disable_rotate_persist" value="Désactiver la persistance de la rotation" />
+		<message id="adjust_scroll_skip" value="Ajuster la vitesse de défilement du menu..." />
+		<message id="enable_manga_mode" value="Activer le mode manga" />
+		<message id="disable_manga_mode" value="Désactiver le mode manga" />
+		<message id="enable_bookmark_on_load" value="Aller au marque pages en ouvrant la bande dessinée" />
+		<message id="disable_bookmark_on_load" value="Ne pas aller au marque pages en ouvrant la bande dessinée" />
+		<message id="set_autozoom" value="Mode auto-zoom..." />
+		<message id="set_zoom_box_w" value="Largeur de la boite de zoom..." />
+		<message id="set_zoom_box_h" value="Hauteur de la boite de zoom..." />
+		<message id="enable_precaching" value="Activer le préchargement" />
+		<message id="disable_precaching" value="Désactiver le préchargement" />
+		<message id="enable_singlehanded" value="Activer le mode une seule main" />
+		<message id="disable_singlehanded" value="Désactiver le mode une seule main" />
+		<message id="enable_analog" value="Activer le stick analogique" />
+		<message id="disable_analog" value="Désactiver le stick analogique" />
+		<message id="set_theme" value="Changer le thème..." />
+		<message id="set_language" value="Changer la langue..." />
+		<message id="save_config" value="Enregistrer les paramètres" />
+		<message id="load_config" value="Charger les paramètres" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Enlever le marque pages" />
+		<message id="delete_all_bookmarks" value="Enlever tous les marque pages" />
+		<message id="purge_bookmarks" value="Purger les marque pages" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Étendre la page à la largeur de l'écran" />
+		<message id="full_view" value="Voir la page à sa largeur normale" />
+		<message id="twice_width" value="Étendre la page au double de la largeur de l'écran" />
+		<message id="autodetect" value="Détecter les pages doubles automatiquement" />
+		<!-- Other menus -->
+		<message id="page" value="Page %u: " />
+		<message id="adjust_clock_top" value="Ajuster la vitesse du proccesseur (MHz)" />
+		<message id="adjust_pan_top" value="Adjuster la vitesse de défillement:" />
+		<message id="adjust_scroll_skip_top" value="Adjuster la vitesse de déroullement...:" />
+		<message id="adjust_zoom_box_w_top" value="Largeur de la boite de zoom:" />
+		<message id="adjust_zoom_box_h_top" value="Hauteur de la boite de zoom:" />
+	</messages>
+</language>

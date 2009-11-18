@@ -1,0 +1,2474 @@
+In archive libunrar.a:
+
+rar.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 rar.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000070 __Z9ToPercentxx
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000b0 __Z11RARInitDatav
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14ToPercentUnlimxx
+[  5](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xc9 nreloc 4 nlnno 0
+[  7](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  9](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 11](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 ___divdi3
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 13](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler5CleanEv
+[ 15](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7InitCRCv
+
+
+
+strlist.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 strlist.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000160 __ZN10StringList9GetStringEPci
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000210 __ZN10StringList9GetStringEPcPwii
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000290 __ZN10StringList9GetStringEv
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002c0 __ZN10StringList9GetStringEj
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002e0 __ZN10StringList13GetBufferSizeEv
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002f0 __ZN10StringList6SearchEPcPwb
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000410 __ZN10StringListD1Ev
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000440 __ZN10StringListD2Ev
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000470 __ZN10StringListC1Ev
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004b0 __ZN10StringListC2Ev
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005c0 __ZN10StringList9AddStringEPKc
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001d0 __ZN10StringList15RestorePositionEv
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000190 __ZN10StringList12SavePositionEv
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __ZN10StringList9GetStringEPPcPPw
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000d0 __ZN10StringList9GetStringEPcPwi
+[ 18](sec 15)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 20](sec 15)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwE3AddEi
+[ 21](sec 14)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 23](sec 14)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiE3AddEi
+[ 24](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 26](sec 13)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcE3AddEi
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004f0 __ZN10StringList9AddStringEPKcPKw
+[ 28](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 30](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiE5ResetEv
+[ 31](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 33](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwE5ResetEv
+[ 34](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 36](sec  4)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcE5ResetEv
+[ 37](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList6RewindEv
+[ 38](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000003c0 __ZN10StringList5ResetEv
+[ 39](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 41](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiED1Ev
+[ 42](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 44](sec 12)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiEC1Ev
+[ 45](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 47](sec  8)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwED1Ev
+[ 48](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 50](sec 11)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwEC1Ev
+[ 51](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 53](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcED1Ev
+[ 54](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 56](sec 10)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcEC1Ev
+[ 57](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x5e0 nreloc 31 nlnno 0
+[ 59](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 61](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 63](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8stricmpwPKwS0_
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcmpwPKwS0_
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8stricompPKcS0_
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11NullToEmptyPKw
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpywPwPKwi
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncpy
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+strfn.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 strfn.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z11NullToEmptyPKc
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __Z11NullToEmptyPKw
+[  5](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZ12IntNameToExtPKcE7OutName
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000070 __Z12IntNameToExtPKc
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000a0 __Z8ExtToIntPKcPc
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000d0 __Z9RemoveEOLPc
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000150 __Z8RemoveLFPc
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001b0 __Z8strlowerPc
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000200 __Z8strupperPc
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000240 __Z8etoupperi
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000260 __Z8LowAsciiPKc
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000290 __Z8LowAsciiPKw
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002c0 __Z9stricompcPKcS0_
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002d0 __Z10stricompcwPKwS0_
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000330 __Z9strnicompPKcS0_i
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000003b0 __Z8stricompPKcS0_
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000430 __Z9strncpyzwPwPKwj
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002e0 __Z8strncpyzPcPKcj
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001f0 __Z10loctoupperh
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001a0 __Z10loctolowerh
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000040 __Z8IntToExtPKcPc
+[ 24](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x47b nreloc 19 nlnno 0
+[ 26](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 28](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x400 nreloc 0 nlnno 0
+[ 30](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x4 nreloc 0 nlnno 0
+[ 32](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpywPwPKwi
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncpy
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcmpwPKwS0_
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _toupper
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _tolower
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncmp
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+pathfn.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 pathfn.cpp
+File 
+[  2](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTV7Archive
+AUX scnlen 0x10 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  4](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI7Archive
+AUX scnlen 0xc nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  6](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS7Archive
+AUX scnlen 0x9 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI4File
+AUX scnlen 0x8 nreloc 2 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 10](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS4File
+AUX scnlen 0x6 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000020 __Z11PointToNamePKc
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000090 __Z11PointToNamePKw
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000f0 __Z15PointToLastCharPKc
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000110 __Z11ConvertPathPKcPc
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000300 __Z11ConvertPathPKwPw
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000500 __Z6SetExtPcPKc
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000570 __Z9SetSFXExtPc
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005c0 __Z6SetExtPwPKw
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000640 __Z9SetSFXExtPw
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000670 __Z6CmpExtPKcS0_
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006c0 __Z10IsWildcardPKcPKw
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000770 __Z11GetPathDiskPKc
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007a0 __Z11AddEndSlashPc
+[ 26](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007e0 __Z11AddEndSlashPw
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000820 __Z11GetFilePathPKcPci
+[ 28](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000008a0 __Z11GetFilePathPKwPwi
+[ 29](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000930 __Z18RemoveNameFromPathPc
+[ 30](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000980 __Z18RemoveNameFromPathPw
+[ 31](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZ15EnumConfigPathsPciE7AltPath
+[ 32](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000009d0 __Z15EnumConfigPathsPci
+[ 33](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000a50 __Z13GetConfigNamePKcPcb
+[ 34](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ac0 __Z13GetVolNumPartPc
+[ 35](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b70 __Z14NextVolumeNamePcb
+[ 36](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ce0 __Z12IsNameUsablePKc
+[ 37](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d20 __Z14MakeNameUsablePcb
+[ 38](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d90 __Z14UnixSlashToDosPcS_j
+[ 39](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000e30 __Z14DosSlashToUnixPcS_j
+[ 40](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ed0 __Z14UnixSlashToDosPwS_j
+[ 41](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000f80 __Z10IsFullPathPKc
+[ 42](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000fe0 __Z11GetPathRootPKcPc
+[ 43](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000010a0 __Z20ParseVersionFileNamePcPwb
+[ 44](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001150 __Z11GetWideNamePKcPKwPw
+[ 45](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000011a0 __Z18VolNameToFirstNamePKcPcb
+[ 46](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD0Ev
+AUX scnlen 0xdd nreloc 13 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 48](sec 13)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD0Ev
+[ 49](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD1Ev
+AUX scnlen 0xd2 nreloc 12 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 51](sec 11)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD1Ev
+[ 52](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000720 __Z12IsDiskLetterPKc
+[ 53](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000590 __Z6GetExtPKw
+[ 54](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004d0 __Z6GetExtPKc
+[ 55](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000010 __Z10IsDriveDivi
+[ 56](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9IsPathDivi
+[ 57](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 59](sec 10)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 60](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x164e nreloc 122 nlnno 0
+[ 62](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x14 nreloc 5 nlnno 0
+[ 64](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 66](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x73 nreloc 0 nlnno 0
+[ 68](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x1a nreloc 0 nlnno 0
+[ 70](sec  4)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTV7Archive
+[ 71](sec  5)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI7Archive
+[ 72](sec  8)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS7Archive
+[ 73](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI4File
+[ 74](sec  7)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS4File
+[ 75](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv120__si_class_type_infoE
+[ 76](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv117__class_type_infoE
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 81](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive9IsArchiveEb
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4OpenEPKcPKwbb
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsD1Ev
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD2Ev
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveC1EP10RAROptions
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile4NextEP8FindDatab
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeC1Ev
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile7SetMaskEPKc
+[ 94](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFileD1Ev
+[ 95](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFileC1Ev
+[ 96](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9FileExistPKcPKw
+[ 97](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5atoiwPKw
+[ 98](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _atoi
+[ 99](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _sprintf
+[100](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isdigit
+[101](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z13WildFileExistPKcPKw
+[102](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _getenv
+[103](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncpy
+[104](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8etoupperi
+[105](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strpbrk
+[106](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strpbrkwPKwS0_
+[107](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8stricompPKcS0_
+[108](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strrchrwPKwi
+[109](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strrchr
+[110](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcatwPwPKw
+[111](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcat
+[112](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[113](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpywPwPKwi
+[114](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strchrwPKwi
+[115](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[116](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strchr
+[117](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[118](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+int64.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 int64.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z4itoaxPc
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000c0 __Z5atoilPc
+[  4](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x10b nreloc 4 nlnno 0
+[  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 10](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x3 nreloc 0 nlnno 0
+[ 12](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 ___moddi3
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___divdi3
+[ 15](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _sprintf
+
+
+
+savepos.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 savepos.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN11SaveFilePosC2ER4File
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000040 __ZN11SaveFilePosC1ER4File
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000080 __ZN11SaveFilePosD2Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000c0 __ZN11SaveFilePosD1Ev
+[  7](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xf6 nreloc 4 nlnno 0
+[  9](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 11](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 13](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4TellEv
+
+
+
+global.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 global.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 1) 0x00000000 __GLOBAL__I_ErrHandler
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x14 nreloc 2 nlnno 0
+[  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0xc nreloc 0 nlnno 0
+[ 10](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .ctors
+AUX scnlen 0x4 nreloc 1 nlnno 0
+[ 12](sec  3)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 13](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandlerC1Ev
+
+
+
+file.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 file.cpp
+File 
+[  2](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTV4File
+AUX scnlen 0x10 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  4](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI4File
+AUX scnlen 0x8 nreloc 2 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  6](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS4File
+AUX scnlen 0x6 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _CreatedFiles
+[  9](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000400 _RemoveCreatedActive
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN4FileC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000060 __ZN4FileC1Ev
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000c0 __ZN4FileaSERS_
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000140 __ZN4File4OpenEPKcPKwbb
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000340 __ZN4File5TOpenEPKcPKw
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000380 __ZN4File6CreateEPKcPKw
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004a0 __ZN4File7TCreateEPKcPKw
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000590 __ZN4File5FlushEv
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000600 __ZN4FileD0Ev
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000660 __ZN4FileD1Ev
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006a0 __ZN4FileD2Ev
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006e0 __ZN4File6RenameEPKc
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007f0 __ZN4File8PreallocEx
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000800 __ZN4File8TruncateEv
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000810 __ZN4File15SetOpenFileTimeEP7RarTimeS1_S1_
+[ 26](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000008b0 __ZN4File16SetCloseFileTimeEP7RarTimeS1_
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000008d0 __ZN4File15GetOpenFileTimeEP7RarTime
+[ 28](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000910 __ZN4File15SetOpenFileStatEP7RarTimeS1_S1_
+[ 29](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000920 __ZN4File16SetCloseFileStatEP7RarTimeS1_j
+[ 30](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b30 __ZN4File4ReadEPvi
+[ 31](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000c40 __ZN4File7GetByteEv
+[ 32](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000c70 __ZN4File5WriteEPKvi
+[ 33](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000c80 __ZN4File7PutByteEh
+[ 34](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000c90 __ZN4File13SetHandleTypeE15FILE_HANDLETYPE
+[ 35](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ca0 __ZN4File8IsDeviceEv
+[ 36](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000410 _ZZN4File7fprintfEPKczE3Msg
+[ 37](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00001010 _ZZN4File7fprintfEPKczE6OutMsg
+[ 38](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000cd0 __ZN4File7fprintfEPKcz
+[ 39](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d10 __ZN4File13RemoveCreatedEv
+[ 40](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d90 __ZN4File4CopyERS_x
+[ 41](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 43](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcED1Ev
+[ 44](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 46](sec 10)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcEC1Ei
+[ 47](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000820 __ZN4File22SetCloseFileTimeByNameEPKcP7RarTimeS3_
+[ 48](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000960 __ZN4File10FileLengthEv
+[ 49](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000a50 __ZN4File7RawSeekExi
+[ 50](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000750 __ZN4File10DirectReadEPvi
+[ 51](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007d0 __ZN4File4TellEv
+[ 52](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ae0 __ZN4File4SeekExi
+[ 53](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000440 __ZN4File7WCreateEPKcPKw
+[ 54](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002e0 __ZN4File5WOpenEPKcPKw
+[ 55](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000110 __ZN4File13AddFileToListEP9__sFILE64
+[ 56](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004e0 __ZN4File5CloseEv
+[ 57](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005b0 __ZN4File6DeleteEv
+[ 58](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xebb nreloc 95 nlnno 0
+[ 60](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 62](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x1c10 nreloc 0 nlnno 0
+[ 64](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x8 nreloc 0 nlnno 0
+[ 66](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0xc nreloc 0 nlnno 0
+[ 68](sec  4)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTV4File
+[ 69](sec  5)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI4File
+[ 70](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS4File
+[ 71](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv117__class_type_infoE
+[ 72](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _malloc
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z4Waitv
+[ 81](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _vsprintf
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isatty
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosD1Ev
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosC1ER4File
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _chmod
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeaSEl
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fileno
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fstat
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _utime
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTime7GetUnixEv
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _ftello
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fseeko
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler9SeekErrorEPKc
+[ 94](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fread
+[ 95](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler9ReadErrorEPKc
+[ 96](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler13AskRepeatReadEPKc
+[ 97](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___getreent
+[ 98](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _rename
+[ 99](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7DelFilePKcPKw
+[100](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fflush
+[101](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler10CloseErrorEPKc
+[102](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fclose
+[103](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler14CreateErrorMsgEPKc
+[104](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12SetErrorCodeEi
+[105](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fopen
+[106](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12OpenErrorMsgEPKc
+[107](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[108](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[109](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[110](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___errno
+[111](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fdopen
+[112](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _close
+[113](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _flock
+[114](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _open
+[115](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[116](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[117](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+filefn.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 filefn.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z7MakeDirPKcPKwj
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000070 __Z10CreatePathPKcPKwb
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000310 __Z10SetDirTimePKcP7RarTimeS2_S2_
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000320 __Z11IsRemovablePKc
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000330 __Z11GetFreeDiskPKc
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000340 __Z9FileExistPKcPKw
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000370 __Z13WildFileExistPKcPKw
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000530 __Z5IsDirj
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000550 __Z12IsUnreadablej
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000590 __Z7IsLabelj
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005a0 __Z6IsLinkj
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005c0 __Z15IsDeleteAllowedj
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005e0 __Z15PrepareToDeletePKcPKw
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005f0 __Z11GetFileAttrPKcPKw
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000620 __Z11SetFileAttrPKcPKwj
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000650 __Z17ConvertNameToFullPKcPc
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006f0 __Z17ConvertNameToFullPKwPw
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000770 __Z6MkTempPc
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007f0 __Z10RenameFilePKcPKwS0_S2_
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000840 __Z7DelFilePKc
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000880 __Z6DelDirPKc
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000008a0 __Z11CalcFileCRCP4Filex16CALCCRC_SHOWMODE
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000860 __Z6DelDirPKcPKw
+[ 26](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000820 __Z7DelFilePKcPKw
+[ 27](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 29](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ei
+[ 30](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 32](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 33](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xb73 nreloc 83 nlnno 0
+[ 35](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 37](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 39](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x56 nreloc 0 nlnno 0
+[ 41](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0xe nreloc 0 nlnno 0
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 47](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 48](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _malloc
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _rmdir
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _remove
+[ 54](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _rename
+[ 55](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[ 56](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z4Waitv
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9ToPercentxx
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+[ 59](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[ 60](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File10FileLengthEv
+[ 61](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosD1Ev
+[ 62](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosC1ER4File
+[ 63](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _sprintf
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _clock
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcat
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPc
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _getcwd
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12IsDiskLetterPKc
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _stat
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _chmod
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile4NextEP8FindDatab
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeC1Ev
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile8SetMaskWEPKw
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile7SetMaskEPKc
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFileD1Ev
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFileC1Ev
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsWildcardPKcPKw
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _access
+[ 81](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File22SetCloseFileTimeByNameEPKcP7RarTimeS3_
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z15PointToLastCharPKc
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9IsPathDivi
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncpy
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpywPwPKwi
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14UnicodeEnabledv
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___errno
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _mkdir
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _umask
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+filcreat.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 filcreat.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x000000e0 __Z10FileCreateP10RAROptionsP4FilePcPw14OVERWRITE_MODEPbxj
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z18GetAutoRenamedNamePc
+[  5](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x354 nreloc 32 nlnno 0
+[  7](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  9](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 11](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x60 nreloc 0 nlnno 0
+[ 13](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _sprintf
+[ 15](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6GetExtPKc
+[ 16](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 17](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7DelFilePKcPKw
+[ 18](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CreatePathPKcPKwb
+[ 19](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z15PrepareToDeletePKcPKw
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File6CreateEPKcPKw
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8RemoveLFPc
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___getreent
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fgets
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3AskPKc
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7eprintfPKcz
+[ 29](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9FileExistPKcPKw
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+archive.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 archive.cpp
+File 
+[  2](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTV7Archive
+AUX scnlen 0x10 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  4](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI7Archive
+AUX scnlen 0xc nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  6](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS7Archive
+AUX scnlen 0x9 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI4File
+AUX scnlen 0x8 nreloc 2 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 10](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS4File
+AUX scnlen 0x6 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN7Archive11IsSignatureEPh
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000a0 __ZN7Archive15GetRecoverySizeEb
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001e0 __ZN7ArchiveC1EP10RAROptions
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000530 __ZN7ArchiveC2EP10RAROptions
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000f70 __ZN7Archive10WCheckOpenEPcPw
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ff0 __ZN7Archive8CheckArcEb
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001050 __ZN7Archive9CheckOpenEPcPw
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001090 __ZN7Archive15ViewFileCommentEv
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001610 __ZN7Archive10GetCommentEP5ArrayIhEPS0_IwE
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001cc0 __ZN7Archive11ViewCommentEv
+[ 23](sec 26)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD0Ev
+AUX scnlen 0xdd nreloc 13 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 25](sec 26)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD0Ev
+[ 26](sec 25)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD1Ev
+AUX scnlen 0xd2 nreloc 12 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 28](sec 25)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD1Ev
+[ 29](sec 22)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 31](sec 22)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwE3AddEi
+[ 32](sec 18)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 34](sec 18)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwE5ResetEv
+[ 35](sec 19)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 37](sec 19)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE3AddEi
+[ 38](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000070 __ZN7Archive10SeekToNextEv
+[ 39](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000880 __ZN7Archive9IsArchiveEb
+[ 40](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 42](sec 12)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcED1Ev
+[ 43](sec 16)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 45](sec 16)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcEC1Ei
+[ 46](sec 20)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE4PushEh
+AUX scnlen 0x39 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 48](sec 20)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE4PushEh
+[ 49](sec 23)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwE5AllocEi
+AUX scnlen 0x21 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 51](sec 23)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwE5AllocEi
+[ 52](sec 24)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwEaSERS0_
+AUX scnlen 0x60 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 54](sec 24)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwEaSERS0_
+[ 55](sec 14)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 57](sec 14)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwED1Ev
+[ 58](sec 17)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 60](sec 17)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwEC1Ei
+[ 61](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000013c0 __ZN7Archive15ReadCommentDataEP5ArrayIhEPS0_IwE
+[ 62](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 64](sec 13)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 65](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 67](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ev
+[ 68](sec 15)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 70](sec 15)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5ResetEv
+[ 71](sec 21)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5AllocEi
+AUX scnlen 0x21 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 73](sec 21)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5AllocEi
+[ 74](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x1dee nreloc 225 nlnno 0
+[ 76](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 78](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 80](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0xe0 nreloc 0 nlnno 0
+[ 82](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x4e nreloc 0 nlnno 0
+[ 84](sec  4)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTV7Archive
+[ 85](sec  5)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI7Archive
+[ 86](sec  8)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS7Archive
+[ 87](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI4File
+[ 88](sec  7)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS4File
+[ 89](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv120__si_class_type_infoE
+[ 90](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv117__class_type_infoE
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 94](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 95](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 96](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 97](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[ 98](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[ 99](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[100](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[101](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _malloc
+[102](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[103](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[104](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4TellEv
+[105](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File8IsDeviceEv
+[106](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5CloseEv
+[107](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5WOpenEPKcPKw
+[108](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5TOpenEPKcPKw
+[109](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[110](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeC1Ev
+[111](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsD1Ev
+[112](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsC1Ev
+[113](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8RijndaelC1Ev
+[114](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD2Ev
+[115](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileC2Ev
+[116](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10OutCommentPci
+[117](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[118](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memchr
+[119](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[120](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[121](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[122](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[123](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9RawToWidePKhPwi
+[124](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive11ReadSubDataEP5ArrayIhEP4File
+[125](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[126](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+[127](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO15GetUnpackedDataEPPhPj
+[128](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6Unpack8DoUnpackEib
+[129](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO8SetFilesEP4FileS1_
+[130](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO18SetCmt13EncryptionEv
+[131](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6Unpack4InitEPh
+[132](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6UnpackD1Ev
+[133](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6UnpackC1EP11ComprDataIO
+[134](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIOC1Ev
+[135](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5Alarmv
+[136](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[137](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive14SearchSubBlockEPKc
+[138](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10ReadHeaderEv
+[139](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File7GetByteEv
+[140](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[141](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosD1Ev
+[142](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosC1ER4File
+[143](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[144](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[145](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+arcread.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 arcread.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x000001c0 __ZN7Archive8IsArcDirEv
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001e0 __ZN7Archive10IsArcLabelEv
+[  5](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZN7Archive17ConvertAttributesEvE4mask
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000210 __ZN7Archive17ConvertAttributesEv
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006f0 __ZN7Archive11ReadSubDataEP5ArrayIhEP4File
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000023f0 __ZN7Archive14SearchSubBlockEPKc
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002460 __ZN7Archive11SearchBlockEi
+[ 10](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 12](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE3AddEi
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive20ConvertUnknownHeaderEv
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000160 __ZN7Archive15ConvertNameCaseEPw
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000d0 __ZN7Archive15ConvertNameCaseEPc
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002b0 __ZN7Archive13ReadOldHeaderEv
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b70 __ZN7Archive10ReadHeaderEv
+[ 18](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 20](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 21](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 23](sec  4)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5ResetEv
+[ 24](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5AllocEi
+AUX scnlen 0x21 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 26](sec  8)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5AllocEi
+[ 27](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x24cd nreloc 205 nlnno 0
+[ 29](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x4 nreloc 0 nlnno 0
+[ 31](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 33](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x14 nreloc 0 nlnno 0
+[ 35](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x138 nreloc 15 nlnno 0
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 41](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 42](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6Unpack8DoUnpackEib
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtract11UnstoreFileER11ComprDataIOx
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO8SetFilesEP4FileS1_
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO13SetEncryptionEiPcPhbb
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO17SetUnpackToMemoryEPhj
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6Unpack4InitEPh
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6UnpackD1Ev
+[ 54](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6UnpackC1EP11ComprDataIO
+[ 55](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO4InitEv
+[ 56](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _umask
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9strlowerwPw
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9strupperwPw
+[ 59](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strlowerPc
+[ 60](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strupperPc
+[ 61](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8IntToExtPKcPc
+[ 62](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File7GetByteEv
+[ 63](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosD1Ev
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11SaveFilePosC1ER4File
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5Alarmv
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12IntNameToExtPKc
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawRead6GetCRCEb
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTime6SetDosEj
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN14EncodeFileName6DecodeEPcPhiPwi
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8ExtToIntPKcPc
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9UtfToWidePKcPwi
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN14EncodeFileNameC1Ev
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawRead3GetEPhi
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawRead3GetERj
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawRead3GetERh
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawRead3GetERt
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12SetErrorCodeEi
+[ 81](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File10FileLengthEv
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawRead4ReadEi
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData12SetCryptKeysEPcPhbbb
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5CloseEv
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RawReadC1EP4File
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4TellEv
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10SeekToNextEv
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z4Waitv
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+unicode.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 unicode.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000020 __Z10WideToCharPKwPci
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000b0 __Z10CharToWidePKcPwi
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000140 __Z9WideToRawPKwPhi
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000190 __Z9RawToWidePKhPwi
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001e0 __Z9WideToUtfPKwPci
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000280 __Z9UtfToWidePKcPwi
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000420 __Z14UnicodeEnabledv
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000430 __Z7strcpywPwPKw
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000460 __Z8strncpywPwPKwi
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000490 __Z7strcatwPwPKw
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004b0 __Z8strncatwPwPKwi
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000500 __Z7strcmpwPKwS0_
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000550 __Z8strncmpwPKwS0_i
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000590 __Z8stricmpwPKwS0_
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000600 __Z9strnicmpwPKwS0_i
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006e0 __Z7strchrwPKwi
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000710 __Z8strrchrwPKwi
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000750 __Z8strpbrkwPKwS0_
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000790 __Z9strlowerwPw
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007d0 __Z9strupperwPw
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000810 __Z8toupperwi
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000840 __Z5atoiwPKw
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 26](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x86e nreloc 10 nlnno 0
+[ 28](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 30](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 32](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10loctoupperh
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10loctolowerh
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8stricompPKcS0_
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _mbstowcs
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _wcstombs
+
+
+
+system.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 system.cpp
+File 
+[  2](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _SleepTime
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z17InitSystemOptionsi
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000010 __Z11SetPriorityi
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __Z4Waitv
+[  7](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x25 nreloc 1 nlnno 0
+[  9](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 11](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x10 nreloc 0 nlnno 0
+
+
+
+isnt.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 isnt.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  4](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  6](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+
+
+
+crypt.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 crypt.cpp
+File 
+[  2](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _InitSubstTable
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN9CryptData12DecryptBlockEPhi
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000e0 __ZN9CryptData14EncryptBlock20EPh
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000360 __ZN9CryptData14DecryptBlock20EPh
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000600 __ZN9CryptData4SwapEPhS0_
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000700 __ZN9CryptData12SetCryptKeysEPcPhbbb
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000cd0 __ZN9CryptData17SetAV15EncryptionEv
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d10 __ZN9CryptData18SetCmt13EncryptionEv
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000e60 __ZN9CryptData5CryptEPhji
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000ea0 __Z41__static_initialization_and_destruction_0ii
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000f50 __GLOBAL__I__ZN9CryptData5CacheE
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000f70 __GLOBAL__D__ZN9CryptData5CacheE
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000db0 __ZN9CryptData7Crypt15EPhj
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d70 __ZN9CryptData8Encode13EPhj
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d30 __ZN9CryptData8Decode13EPhj
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000620 __ZN9CryptData10SetOldKeysEPc
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000030 __ZN9CryptData7UpdKeysEPh
+[ 20](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xf80 nreloc 62 nlnno 0
+[ 22](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x100 nreloc 0 nlnno 0
+[ 24](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x2c8 nreloc 0 nlnno 0
+[ 26](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .ctors
+AUX scnlen 0x4 nreloc 1 nlnno 0
+[ 28](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .dtors
+AUX scnlen 0x4 nreloc 1 nlnno 0
+[ 30](sec  3)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZN9CryptData8CachePosE
+[ 31](sec  3)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000020 __ZN9CryptData5CacheE
+[ 32](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _CRCTab
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8Rijndael4initENS_9DirectionEPKhPh
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10hash_finalP12hash_contextPjb
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12hash_processP12hash_contextPhjb
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12hash_initialP12hash_context
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9WideToRawPKwPhi
+[ 42](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7InitCRCv
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8Rijndael12blockDecryptEPKhiPh
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+crc.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 crc.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z7InitCRCv
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000050 __Z3CRCjPKvj
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000a0 __Z6OldCRCtPKvj
+[  6](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xd4 nreloc 3 nlnno 0
+[  8](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 10](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x400 nreloc 0 nlnno 0
+[ 12](sec  3)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _CRCTab
+
+
+
+rawread.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 rawread.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN7RawRead3GetERh
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000030 __ZN7RawRead3GetERt
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000a0 __ZN7RawRead3GetERj
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000120 __ZN7RawRead4Get8ERx
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000170 __ZN7RawRead3GetEPhi
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001e0 __ZN7RawRead3GetEPwi
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000250 __ZN7RawRead6GetCRCEb
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002b0 __ZN7RawReadC1EP4File
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002f0 __ZN7RawReadC2EP4File
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000330 __ZN7RawRead4ReadEPhi
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000390 __ZN7RawRead4ReadEi
+[ 14](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 16](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE3AddEi
+[ 17](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 19](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 20](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 22](sec  4)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ev
+[ 23](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x473 nreloc 14 nlnno 0
+[ 25](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 27](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 29](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9RawToWidePKhPwi
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData12DecryptBlockEPhi
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+
+
+
+encname.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 encname.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN14EncodeFileNameC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000030 __ZN14EncodeFileNameC1Ev
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000060 __ZN14EncodeFileName6DecodeEPcPhiPwi
+[  6](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x275 nreloc 0 nlnno 0
+[  8](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 10](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+
+
+
+resource.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 resource.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z2StPKc
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x8 nreloc 0 nlnno 0
+[  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+
+
+
+match.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 match.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 1) 0x00000000 __Z10mstricompcPKcS0_b
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000040 __Z5matchPcS_b
+[  5](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x000001a0 __Z11mstricompcwPKwS0_b
+[  6](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x000001e0 __Z5matchPwS_b
+[  7](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000370 __Z11mstrnicompcPKcS0_ib
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000003b0 __Z7CmpNamePcS_i
+[  9](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000600 __Z12mstrnicompcwPKwS0_ib
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000620 __Z7CmpNamePwS_i
+[ 11](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x84a nreloc 33 nlnno 0
+[ 13](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 15](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 17](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x20 nreloc 0 nlnno 0
+[ 19](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncmpwPKwS0_i
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncmp
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10stricompcwPKwS0_
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcmpwPKwS0_
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9stricompcPKcS0_
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strpbrkwPKwS0_
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strchrwPKwi
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strpbrk
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strchr
+[ 29](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKw
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetFilePathPKwPwi
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsWildcardPKcPKw
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetFilePathPKcPci
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+timefn.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 timefn.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN7RarTimeC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000010 __ZN7RarTimeC1Ev
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __ZN7RarTimeaSEl
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000080 __ZN7RarTime7GetUnixEv
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000d0 __ZN7RarTime6GetRawEv
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000130 __ZN7RarTime6SetRawEx
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001a0 __ZN7RarTimeeqERS_
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000200 __ZN7RarTimeltERS_
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000250 __ZN7RarTimeleERS_
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002a0 __ZN7RarTimegtERS_
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002f0 __ZN7RarTimegeERS_
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000340 __ZN7RarTime6GetDosEv
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000380 __ZN7RarTime6SetDosEj
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000003e0 __ZN7RarTime7GetTextEPcb
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000490 __ZN7RarTime10SetIsoTextEPc
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000580 __ZN7RarTime10SetAgeTextEPc
+[ 19](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZ12GetMonthNameiE7MonthID
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000670 __Z12GetMonthNamei
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000690 __Z10IsLeapYeari
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000550 __ZN7RarTime14SetCurrentTimeEv
+[ 23](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x6fb nreloc 14 nlnno 0
+[ 25](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x30 nreloc 12 nlnno 0
+[ 27](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 29](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x60 nreloc 0 nlnno 0
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___divdi3
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___moddi3
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _time
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8etoupperi
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isdigit
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _sprintf
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _mktime
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _localtime
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+
+
+
+rdwrfn.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 rdwrfn.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000120 __ZN11ComprDataIOC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000150 __ZN11ComprDataIOC1Ev
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000190 __ZN11ComprDataIO8UnpWriteEPhj
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000400 __ZN11ComprDataIO7UnpReadEPhj
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000690 __ZN11ComprDataIO8SetFilesEP4FileS1_
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006c0 __ZN11ComprDataIO15GetUnpackedDataEPPhPj
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006e0 __ZN11ComprDataIO13SetEncryptionEiPcPhbb
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007a0 __ZN11ComprDataIO17SetAV15EncryptionEv
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007c0 __ZN11ComprDataIO18SetCmt13EncryptionEv
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007e0 __ZN11ComprDataIO17SetUnpackToMemoryEPhj
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000180 __ZN11ComprDataIO12ShowUnpWriteEv
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000320 __ZN11ComprDataIO11ShowUnpReadExx
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO4InitEv
+[ 16](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x7f8 nreloc 28 nlnno 0
+[ 18](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 20](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 22](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0xa nreloc 0 nlnno 0
+[ 24](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData18SetCmt13EncryptionEv
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData17SetAV15EncryptionEv
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData12SetCryptKeysEPcPhbbb
+[ 29](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9ToPercentxx
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6OldCRCtPKvj
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5WriteEPKvi
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z4Waitv
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData12DecryptBlockEPhi
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData14DecryptBlock20EPh
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN9CryptData5CryptEPhji
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12MergeArchiveR7ArchiveP11ComprDataIObc
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8RijndaelC1Ev
+
+
+
+consio.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 consio.cpp
+File 
+[  2](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _Sound
+[  3](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000010 _MsgStream
+[  4](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000020 _LogName
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z14InitLogOptionsPc
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __Z18InitConsoleOptions12MESSAGE_TYPEb
+[  8](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 0) 0x00000040 __Z8RawPrintPc12MESSAGE_TYPE
+[  9](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000420 _ZZ7eprintfPKczE3Msg
+[ 10](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00001420 _ZZ3LogPKcS0_zE3Msg
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000240 __Z3LogPKcS0_z
+[ 12](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00002020 _ZZ7mprintfPKczE3Msg
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000280 __Z7mprintfPKcz
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002d0 __Z5Alarmv
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000300 __Z15GetPasswordTextPci
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000350 __Z6GetKeyv
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000380 __Z11GetPassword13PASSWORD_TYPEPKcPci
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000570 __Z3AskPKc
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000840 __Z7KbdAnsiPci
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000008d0 __Z10OutCommentPci
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000200 __Z7eprintfPKcz
+[ 22](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x963 nreloc 74 nlnno 0
+[ 24](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 26](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x3020 nreloc 0 nlnno 0
+[ 28](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x6 nreloc 0 nlnno 0
+[ 30](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x7b nreloc 0 nlnno 0
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 36](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncpy
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isdigit
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10loctoupperh
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strchr
+[ 42](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcat
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _fgets
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8RemoveLFPc
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _getpass
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___getreent
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _putc
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5WriteEPKvi
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File13SetHandleTypeE15FILE_HANDLETYPE
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD1Ev
+[ 54](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileC1Ev
+[ 55](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _vsprintf
+[ 56](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+options.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 options.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x000000a0 __ZN10RAROptionsD1Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000e0 __ZN10RAROptionsD2Ev
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000120 __ZN10RAROptionsC1Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001f0 __ZN10RAROptionsC2Ev
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptions4InitEv
+[  8](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIxED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 10](sec  4)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIxED1Ev
+[ 11](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIxEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 13](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIxEC1Ev
+[ 14](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x2b3 nreloc 25 nlnno 0
+[ 16](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 18](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 20](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0xc nreloc 0 nlnno 0
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeC1Ev
+
+
+
+ulinks.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 ulinks.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z11ExtractLinkR11ComprDataIOR7ArchivePcRjb
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x1c0 nreloc 14 nlnno 0
+[  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 10](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x4a nreloc 0 nlnno 0
+[ 12](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 13](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12SetErrorCodeEi
+[ 15](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 16](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___errno
+[ 17](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _symlink
+[ 18](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CreatePathPKcPKwb
+[ 19](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO7UnpReadEPhj
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6IsLinkj
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+
+
+
+errhnd.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 errhnd.cpp
+File 
+[  2](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _UserBreak
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000030 __ZN12ErrorHandlerC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000040 __ZN12ErrorHandlerC1Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000050 __ZN12ErrorHandler13AskRepeatReadEPKc
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000c0 __ZN12ErrorHandler14AskRepeatWriteEPKc
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000010 _ZZN12ErrorHandler6ErrMsgEPKcS1_zE3Msg
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001d0 __ZN12ErrorHandler12SetErrorCodeEi
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000210 __Z13ProcessSignali
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000260 __ZN12ErrorHandler17SetSignalHandlersEb
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000320 __ZN12ErrorHandler4ExitEi
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000350 __ZN12ErrorHandler11MemoryErrorEv
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000410 __ZN12ErrorHandler10WriteErrorEPKcS1_
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004a0 __ZN12ErrorHandler9ReadErrorEPKc
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000540 __ZN12ErrorHandler14CreateErrorMsgEPKc
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005e0 __ZN12ErrorHandler9OpenErrorEPKc
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000610 __ZN12ErrorHandler13GeneralErrMsgEPKc
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000650 __ZN12ErrorHandler9SeekErrorEPKc
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006d0 __ZN12ErrorHandler10CloseErrorEPKc
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004e0 __ZN12ErrorHandler14CreateErrorMsgEPKcS1_
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000560 __ZN12ErrorHandler12OpenErrorMsgEPKcS1_
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000003c0 __ZN12ErrorHandler13WriteErrorMsgEPKcS1_
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000450 __ZN12ErrorHandler12ReadErrorMsgEPKcS1_
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000380 __ZN12ErrorHandler9SysErrMsgEv
+[ 26](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000130 __ZN12ErrorHandler6ErrMsgEPKcS1_z
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005c0 __ZN12ErrorHandler12OpenErrorMsgEPKc
+[ 28](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002c0 __ZN12ErrorHandler5ThrowEi
+[ 29](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001a0 __ZN12ErrorHandler14MemoryErrorMsgEv
+[ 30](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler5CleanEv
+[ 31](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x745 nreloc 69 nlnno 0
+[ 33](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 35](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x810 nreloc 0 nlnno 0
+[ 37](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0xd4 nreloc 0 nlnno 0
+[ 39](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 40](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTIi
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___errno
+[ 42](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strerror
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___cxa_throw
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___cxa_allocate_exception
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _signal
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _exit
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File13RemoveCreatedEv
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _vsprintf
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5Alarmv
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3AskPKc
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+
+
+
+rarvm.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 rarvm.cpp
+File 
+[  2](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _VM_CmdFlags
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN5RarVMC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __ZN5RarVMC1Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000040 __ZN5RarVMD2Ev
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000080 __ZN5RarVMD1Ev
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000c0 __ZN5RarVM4InitEv
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000f0 __ZN5RarVM17SetLowEndianValueEPjj
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000490 __ZN5RarVM9SetMemoryEjPhj
+[ 11](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x0000007c _ZZN5RarVM21ExecuteStandardFilterE18VM_StandardFiltersE5Masks
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002b10 __ZN5RarVM7ExecuteEP18VM_PreparedProgram
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002d90 __ZN5RarVM7PrepareEPhiP18VM_PreparedProgram
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005e0 __ZN5RarVM21FilterItanium_SetBitsEPhjii
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000580 __ZN5RarVM21FilterItanium_GetBitsEPhii
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000370 __ZN5RarVM8OptimizeEP18VM_PreparedProgram
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000220 __ZN5RarVM9DecodeArgER18VM_PreparedOperandb
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000110 __ZN5RarVM8ReadDataER8BitInput
+[ 19](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayI18VM_PreparedCommandE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 21](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayI18VM_PreparedCommandE3AddEi
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000510 __ZN5RarVM16IsStandardFilterEPhi
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000650 __ZN5RarVM21ExecuteStandardFilterE18VM_StandardFilters
+[ 24](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 26](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE3AddEi
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ef0 __ZN5RarVM11ExecuteCodeEP18VM_PreparedCommandi
+[ 28](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 30](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5ResetEv
+[ 31](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x3185 nreloc 60 nlnno 0
+[ 33](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x8c nreloc 0 nlnno 0
+[ 35](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 37](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x188 nreloc 98 nlnno 0
+[ 39](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 42](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3CRCjPKvj
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memmove
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInput8fgetbitsEv
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInput8faddbitsEi
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znaj
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdaPv
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInputD2Ev
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInputC2Ev
+
+
+
+rijndael.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 rijndael.cpp
+File 
+[  2](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _T8
+[  3](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000400 _T7
+[  4](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000800 _T6
+[  5](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000c00 _T5
+[  6](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00001000 _U4
+[  7](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00001400 _U3
+[  8](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00001800 _U2
+[  9](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00001c00 _U1
+[ 10](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00002000 _S5
+[ 11](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00002100 _T4
+[ 12](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00002500 _T3
+[ 13](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00002900 _T2
+[ 14](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00002d00 _T1
+[ 15](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00003100 _S
+[ 16](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00003200 _rcon
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000300 __ZN8RijndaelC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000320 __ZN8RijndaelC1Ev
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000005f0 __ZN8Rijndael4initENS_9DirectionEPKhPh
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ad0 __ZN8Rijndael12blockDecryptEPKhiPh
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000670 __ZN8Rijndael7decryptEPKhPh
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000540 __ZN8Rijndael11keyEncToDecEv
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000340 __ZN8Rijndael8keySchedEPA4_h
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8Rijndael14GenerateTablesEv
+[ 26](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xbc6 nreloc 110 nlnno 0
+[ 28](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 30](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x3220 nreloc 0 nlnno 0
+
+
+
+getbits.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 getbits.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN8BitInputC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __ZN8BitInputC1Ev
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000040 __ZN8BitInputD2Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000060 __ZN8BitInputD1Ev
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000080 __ZN8BitInput8faddbitsEi
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000a0 __ZN8BitInput8fgetbitsEv
+[  9](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0xe9 nreloc 4 nlnno 0
+[ 11](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 13](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 15](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdaPv
+[ 16](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znaj
+
+
+
+sha1.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 sha1.cpp
+File 
+[  2](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZ13SHA1TransformPjPhbE9workspace
+[  3](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z13SHA1TransformPjPhb
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001790 __Z12hash_initialP12hash_context
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000017d0 __Z12hash_processP12hash_contextPhjb
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001930 __Z10hash_finalP12hash_contextPjb
+[  8](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x1a66 nreloc 7 nlnno 0
+[ 10](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 12](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x40 nreloc 0 nlnno 0
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+
+
+
+extinfo.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 extinfo.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z16ExtractUnixOwnerR7ArchivePc
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000160 __Z19ExtractUnixOwnerNewR7ArchivePc
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002e0 __Z12SetExtraInfoP11CommandDataR7ArchivePcPw
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000320 __Z15SetExtraInfoNewP11CommandDataR7ArchivePcPw
+[  7](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x377 nreloc 42 nlnno 0
+[  9](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 11](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 13](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0xa5 nreloc 0 nlnno 0
+[ 15](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 16](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strncpy
+[ 17](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 18](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11SetFileAttrPKcPKwj
+[ 19](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _lchown
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetFileAttrPKcPKw
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _getgrnam
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _getpwnam
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12SetErrorCodeEi
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+extract.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 extract.cpp
+File 
+[  2](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTV7Archive
+AUX scnlen 0x10 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  4](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI7Archive
+AUX scnlen 0xc nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  6](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS7Archive
+AUX scnlen 0x9 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI4File
+AUX scnlen 0x8 nreloc 2 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 10](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS4File
+AUX scnlen 0x6 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtractC2Ev
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000100 __ZN10CmdExtractC1Ev
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000200 __ZN10CmdExtractD2Ev
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000260 __ZN10CmdExtractD1Ev
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002c0 __ZN10CmdExtract18ExtractArchiveInitEP11CommandDataR7Archive
+[ 17](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD0Ev
+AUX scnlen 0xdd nreloc 13 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 19](sec 12)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD0Ev
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00003040 __ZN10CmdExtract9DoExtractEP11CommandData
+[ 21](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 23](sec 13)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ei
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000370 __ZN10CmdExtract11UnstoreFileER11ComprDataIOx
+[ 25](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000490 __ZN10CmdExtract18ExtractCurrentFileEP11CommandDataR7ArchiveiRb
+[ 26](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD1Ev
+AUX scnlen 0xd2 nreloc 12 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 28](sec 11)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD1Ev
+[ 29](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000029f0 __ZN10CmdExtract14ExtractArchiveEP11CommandData
+[ 30](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 32](sec 10)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 33](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x32e1 nreloc 328 nlnno 0
+[ 35](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 37](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 39](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x38 nreloc 0 nlnno 0
+[ 41](sec 14)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x285 nreloc 0 nlnno 0
+[ 43](sec  4)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTV7Archive
+[ 44](sec  5)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI7Archive
+[ 45](sec  8)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS7Archive
+[ 46](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI4File
+[ 47](sec  7)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS4File
+[ 48](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv120__si_class_type_infoE
+[ 49](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv117__class_type_infoE
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Unwind_SjLj_Resume
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 54](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 55](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 56](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 59](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _malloc
+[ 60](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 61](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO8UnpWriteEPhj
+[ 62](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO7UnpReadEPhj
+[ 63](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File16SetCloseFileStatEP7RarTimeS1_j
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5CloseEv
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File15SetOpenFileStatEP7RarTimeS1_S1_
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File8TruncateEv
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5Alarmv
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6Unpack8DoUnpackEib
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11ExtractLinkR11ComprDataIOR7ArchivePcRjb
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File8PreallocEx
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO8SetFilesEP4FileS1_
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO13SetEncryptionEiPcPhbb
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler10WriteErrorEPKcS1_
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File8IsDeviceEv
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14MakeNameUsablePcb
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler14CreateErrorMsgEPKcS1_
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File13SetHandleTypeE15FILE_HANDLETYPE
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10SetDirTimePKcP7RarTimeS2_S2_
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler9SysErrMsgEv
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11SetFileAttrPKcPKwj
+[ 81](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CreatePathPKcPKwb
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10FileCreateP10RAROptionsP4FilePcPw14OVERWRITE_MODEPbxj
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetFileAttrPKcPKw
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5IsDirj
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7MakeDirPKcPKwj
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6IsLinkj
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD1Ev
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileC1Ev
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9strncpyzwPwPKwj
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimegeERS_
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPw
+[ 94](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6SetExtPwPKw
+[ 95](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKw
+[ 96](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcatwPwPKw
+[ 97](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[ 98](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 99](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8etoupperi
+[100](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsDriveDivi
+[101](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9strnicompPKcS0_i
+[102](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9IsPathDivi
+[103](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPc
+[104](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6SetExtPcPKc
+[105](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcat
+[106](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetPassword13PASSWORD_TYPEPKcPci
+[107](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[108](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3AskPKc
+[109](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7eprintfPKcz
+[110](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[111](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive17ConvertAttributesEv
+[112](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive8IsArcDirEv
+[113](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z20ParseVersionFileNamePcPwb
+[114](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10IsArcLabelEv
+[115](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11ConvertPathPKcPc
+[116](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12IsNameUsablePKc
+[117](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[118](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11ConvertPathPKwPw
+[119](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14UnicodeEnabledv
+[120](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[121](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9GetStringEPcPwii
+[122](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData13IsProcessFileER10FileHeaderPbi
+[123](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8IntToExtPKcPc
+[124](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10SeekToNextEv
+[125](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[126](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z15SetExtraInfoNewP11CommandDataR7ArchivePcPw
+[127](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12SetExtraInfoP11CommandDataR7ArchivePcPw
+[128](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12MergeArchiveR7ArchiveP11ComprDataIObc
+[129](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10ReadHeaderEv
+[130](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive11ViewCommentEv
+[131](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList6SearchEPcPwb
+[132](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9FileExistPKcPKw
+[133](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8stricompPKcS0_
+[134](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z18VolNameToFirstNamePKcPcb
+[135](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6CmpExtPKcS0_
+[136](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive9IsArchiveEb
+[137](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5WOpenEPKcPKw
+[138](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsD1Ev
+[139](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD2Ev
+[140](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveC1EP10RAROptions
+[141](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File10FileLengthEv
+[142](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12SetErrorCodeEi
+[143](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[144](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList6RewindEv
+[145](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile8FastFindEPKcPKwP8FindDatab
+[146](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData10GetArcNameEPcPwi
+[147](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeC1Ev
+[148](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6UnpackD1Ev
+[149](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6Unpack4InitEPh
+[150](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[151](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN6UnpackC1EP11ComprDataIO
+[152](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znwj
+[153](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIOC1Ev
+[154](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[155](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+[156](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+volume.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 volume.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Z12MergeArchiveR7ArchiveP11ComprDataIObc
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000750 __Z10AskNextVolPc
+[  5](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x790 nreloc 51 nlnno 0
+[  7](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[  9](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 11](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0xad nreloc 0 nlnno 0
+[ 13](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 14](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3AskPKc
+[ 15](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7eprintfPKcz
+[ 16](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12IsNameUsablePKc
+[ 17](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 18](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11ConvertPathPKwPw
+[ 19](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14UnicodeEnabledv
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8IntToExtPKcPc
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive17ConvertAttributesEv
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10ReadHeaderEv
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive11SearchBlockEi
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive8CheckArcEb
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4OpenEPKcPKwbb
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 29](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isdigit
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z13GetVolNumPartPc
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14NextVolumeNamePcb
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5CloseEv
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4TellEv
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+list.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 list.cpp
+File 
+[  2](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTV7Archive
+AUX scnlen 0x10 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  4](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI7Archive
+AUX scnlen 0xc nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  6](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS7Archive
+AUX scnlen 0x9 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI4File
+AUX scnlen 0x8 nreloc 2 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 10](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS4File
+AUX scnlen 0x6 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 12](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZ14ListFileHeaderR10FileHeaderbbRbbE5RarOS
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 1) 0x00000000 __Z14ListFileHeaderR10FileHeaderbbRbb
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 15](sec 14)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD0Ev
+AUX scnlen 0xdd nreloc 13 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 17](sec 14)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD0Ev
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000006b0 __Z11ListArchiveP11CommandData
+[ 19](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD1Ev
+AUX scnlen 0xd2 nreloc 12 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 21](sec 12)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD1Ev
+[ 22](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 24](sec 11)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 25](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 27](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ev
+[ 28](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x1480 nreloc 198 nlnno 0
+[ 30](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x28 nreloc 10 nlnno 0
+[ 32](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 34](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x36c nreloc 6 nlnno 0
+[ 36](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x1a nreloc 0 nlnno 0
+[ 38](sec  4)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTV7Archive
+[ 39](sec  5)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI7Archive
+[ 40](sec  8)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS7Archive
+[ 41](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI4File
+[ 42](sec  7)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS4File
+[ 43](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv120__si_class_type_infoE
+[ 44](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv117__class_type_infoE
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 49](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9RawToWidePKhPwi
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10OutCommentPci
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive15ReadCommentDataEP5ArrayIhEPS0_IwE
+[ 54](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+[ 55](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTime7GetTextEPcb
+[ 56](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14UnicodeEnabledv
+[ 59](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[ 60](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12MergeArchiveR7ArchiveP11ComprDataIObc
+[ 61](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14ToPercentUnlimxx
+[ 62](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z4itoaxPc
+[ 63](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10SeekToNextEv
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive15ViewFileCommentEv
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData13IsProcessFileER10FileHeaderPbi
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8IntToExtPKcPc
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10ReadHeaderEv
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive11ViewCommentEv
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive9IsArchiveEb
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5WOpenEPKcPKw
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsD1Ev
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD2Ev
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveC1EP10RAROptions
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData10GetArcNameEPcPwi
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcmp
+
+
+
+find.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 find.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN8FindFileC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000030 __ZN8FindFileC1Ev
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000060 __ZN8FindFileD2Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000080 __ZN8FindFileD1Ev
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000a0 __ZN8FindFile7SetMaskEPKc
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000110 __ZN8FindFile8SetMaskWEPKw
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000002a0 __ZN8FindFile4NextEP8FindDatab
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000170 __ZN8FindFile8FastFindEPKcPKwP8FindDatab
+[ 11](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x5be nreloc 44 nlnno 0
+[ 13](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 15](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 17](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x22 nreloc 0 nlnno 0
+[ 19](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTime6GetDosEv
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeaSEl
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _stat
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5IsDirj
+[ 24](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14UnicodeEnabledv
+[ 25](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8LowAsciiPKc
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12OpenErrorMsgEPKc
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcat
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 29](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7CmpNamePcS_i
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _readdir
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___errno
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _opendir
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z18RemoveNameFromPathPc
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _closedir
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+unpack.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 unpack.cpp
+File 
+[  2](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _PosHf2
+[  3](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000040 _DecHf2
+[  4](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000060 _PosHf0
+[  5](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000000a0 _DecHf0
+[  6](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000000e0 _PosHf1
+[  7](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000120 _DecHf1
+[  8](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000140 _PosHf3
+[  9](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000174 _DecHf3
+[ 10](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000001a0 _PosHf4
+[ 11](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000001d4 _DecHf4
+[ 12](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000200 _PosL1
+[ 13](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000240 _DecL1
+[ 14](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000280 _PosL2
+[ 15](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000002c0 _DecL2
+[ 16](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ExpEscape
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000010 __ZN12SubAllocatorC2Ev
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000020 __ZN12SubAllocatorC1Ev
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000060 __ZN12SubAllocator17StartSubAllocatorEi
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000e0 __ZN12SubAllocator16InitSubAllocatorEv
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001f0 __ZN12SubAllocator14AllocUnitsRareEi
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000490 __ZN8ModelPPMC2Ev
+[ 24](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000004d0 __ZN8ModelPPMC1Ev
+[ 25](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000010 _ZZN8ModelPPM16RestartModelRareEvE10InitBinEsc
+[ 26](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000510 __ZN8ModelPPM16RestartModelRareEv
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000790 __ZN8ModelPPM14StartModelRareEi
+[ 28](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000890 __ZN11PPM_CONTEXT7rescaleEP8ModelPPM
+[ 29](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000300 _ZZN6Unpack7ShortLZEvE9ShortLen1
+[ 30](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000340 _ZZN6Unpack7ShortLZEvE9ShortXor1
+[ 31](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000380 _ZZN6Unpack7ShortLZEvE9ShortLen2
+[ 32](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000003c0 _ZZN6Unpack7ShortLZEvE9ShortXor2
+[ 33](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001990 __ZN6Unpack12CopyString20Ejj
+[ 34](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001f40 __ZN6Unpack13UnpInitData20Ei
+[ 35](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001fc0 __ZN6Unpack10CopyStringEjj
+[ 36](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002750 __ZN8ModelPPM10DecodeCharEv
+[ 37](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00003c00 __ZN10RangeCoder11InitDecoderEP6Unpack
+[ 38](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00003cb0 __ZN8ModelPPM10DecodeInitEP6UnpackRi
+[ 39](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004650 __ZN6Unpack4InitEPh
+[ 40](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000003fc _ZZN6Unpack8Unpack20EbE7LDecode
+[ 41](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000418 _ZZN6Unpack8Unpack20EbE5LBits
+[ 42](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000440 _ZZN6Unpack8Unpack20EbE7DDecode
+[ 43](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000500 _ZZN6Unpack8Unpack20EbE5DBits
+[ 44](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000530 _ZZN6Unpack8Unpack20EbE8SDDecode
+[ 45](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000538 _ZZN6Unpack8Unpack20EbE6SDBits
+[ 46](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000046a0 __ZN6Unpack8Unpack20Eb
+[ 47](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004b50 __ZN6Unpack8Unpack15Eb
+[ 48](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004d90 __ZN6UnpackD1Ev
+[ 49](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004ec0 __ZN6UnpackD2Ev
+[ 50](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004ff0 __ZN6UnpackC1EP11ComprDataIO
+[ 51](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00005120 __ZN6UnpackC2EP11ComprDataIO
+[ 52](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000540 _ZZN6Unpack8Unpack29EbE7LDecode
+[ 53](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x0000055c _ZZN6Unpack8Unpack29EbE5LBits
+[ 54](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZN6Unpack8Unpack29EbE7DDecode
+[ 55](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000000f0 _ZZN6Unpack8Unpack29EbE5DBits
+[ 56](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000580 _ZZN6Unpack8Unpack29EbE16DBitLengthCounts
+[ 57](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000005cc _ZZN6Unpack8Unpack29EbE8SDDecode
+[ 58](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000005d4 _ZZN6Unpack8Unpack29EbE6SDBits
+[ 59](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00006d10 __ZN6Unpack8DoUnpackEib
+[ 60](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIP12UnpackFilterE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 62](sec 13)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIP12UnpackFilterE5ResetEv
+[ 63](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 65](sec 12)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiE5ResetEv
+[ 66](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004310 __ZN6Unpack12UnpWriteDataEPhi
+[ 67](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004280 __ZN6Unpack11ExecuteCodeEP18VM_PreparedProgram
+[ 68](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000043c0 __ZN6Unpack12UnpWriteAreaEjj
+[ 69](sec 18)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 71](sec 18)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE3AddEi
+[ 72](sec 20)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 74](sec 20)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiE3AddEi
+[ 75](sec 21)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIP12UnpackFilterE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 77](sec 21)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIP12UnpackFilterE3AddEi
+[ 78](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00005810 __ZN6Unpack9AddVMCodeEjPhi
+[ 79](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 81](sec 11)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ei
+[ 82](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00006350 __ZN6Unpack10ReadVMCodeEv
+[ 83](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000041c0 __ZN6Unpack14ReadEndOfBlockEv
+[ 84](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00006130 __ZN6Unpack13ReadVMCodePPMEv
+[ 85](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00005250 __ZN6Unpack11UnpWriteBufEv
+[ 86](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00003e10 __ZN6Unpack10ReadTablesEv
+[ 87](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000065c0 __ZN6Unpack8Unpack29Eb
+[ 88](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004450 __ZN6Unpack11InitFiltersEv
+[ 89](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 91](sec 10)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiED1Ev
+[ 92](sec 17)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIiEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 94](sec 17)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIiEC1Ev
+[ 95](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIP12UnpackFilterED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 97](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIP12UnpackFilterED1Ev
+[ 98](sec 16)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIP12UnpackFilterEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[100](sec 16)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIP12UnpackFilterEC1Ev
+[101](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001e10 __ZN6Unpack16MakeDecodeTablesEPhP6Decodei
+[102](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000026d0 __ZN6Unpack14ReadLastTablesEv
+[103](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001bc0 __ZN6Unpack11DecodeAudioEi
+[104](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001aa0 __ZN6Unpack12DecodeNumberEP6Decode
+[105](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002100 __ZN6Unpack12ReadTables20Ev
+[106](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001150 __ZN6Unpack8CorrHuffEPjS0_
+[107](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d20 __ZN6Unpack9DecodeNumEijPjS0_
+[108](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000cb0 __ZN6Unpack13OldCopyStringEjj
+[109](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d80 __ZN6Unpack7ShortLZEv
+[110](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001640 __ZN6Unpack6LongLZEv
+[111](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001350 __ZN6Unpack10HuffDecodeEv
+[112](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000c00 __ZN6Unpack14OldUnpWriteBufEv
+[113](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000012a0 __ZN6Unpack11GetFlagsBufEv
+[114](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000011c0 __ZN6Unpack8InitHuffEv
+[115](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b60 __ZN6Unpack14OldUnpInitDataEi
+[116](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00004570 __ZN6Unpack11UnpInitDataEi
+[117](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12SubAllocator5CleanEv
+[118](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002050 __ZN6Unpack10UnpReadBufEv
+[119](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000030 __ZN12SubAllocator16StopSubAllocatorEv
+[120](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[122](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[123](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[125](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ev
+[126](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayI18VM_PreparedCommandED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[128](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayI18VM_PreparedCommandED1Ev
+[129](sec 15)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayI18VM_PreparedCommandEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[131](sec 15)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayI18VM_PreparedCommandEC1Ev
+[132](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[134](sec  8)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5ResetEv
+[135](sec 19)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhE5AllocEi
+AUX scnlen 0x21 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[137](sec 19)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhE5AllocEi
+[138](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x6d5f nreloc 283 nlnno 0
+[140](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x5dc nreloc 0 nlnno 0
+[142](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x130 nreloc 0 nlnno 0
+[144](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0xa4 nreloc 33 nlnno 0
+[146](sec 14)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x2c nreloc 0 nlnno 0
+[148](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[149](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[150](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[151](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[152](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[153](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[154](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[155](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[156](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVM7ExecuteEP18VM_PreparedProgram
+[157](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVM9SetMemoryEjPhj
+[158](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO7UnpReadEPhj
+[159](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memmove
+[160](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVM17SetLowEndianValueEPjj
+[161](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVM7PrepareEPhiP18VM_PreparedProgram
+[162](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[163](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znwj
+[164](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVM8ReadDataER8BitInput
+[165](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVM4InitEv
+[166](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInputD1Ev
+[167](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInputC1Ev
+[168](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znaj
+[169](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdaPv
+[170](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVMD1Ev
+[171](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5RarVMC1Ev
+[172](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInputD2Ev
+[173](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInputC2Ev
+[174](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInput8faddbitsEi
+[175](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8BitInput8fgetbitsEv
+[176](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11ComprDataIO8UnpWriteEPhj
+[177](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[178](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _malloc
+[179](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+
+
+
+cmddata.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 cmddata.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000010 __ZN11CommandData9ParseDoneEv
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZN11CommandData12CheckWinSizeEvE9ValidSize
+[  5](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000000 _ZZN11CommandData8OutTitleEvE10TitleShown
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000150 __ZN11CommandData8OutTitleEv
+[  7](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x00000020 _ZZN11CommandData7OutHelpEvE4Help
+[  8](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 0) 0x000001e0 _ZZN11CommandData7OutHelpEvE9Win32Only
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000270 __ZN11CommandData13ExclCheckArgsEP10StringListPcbi
+[ 10](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000360 __ZN11CommandData9ExclCheckEPcb
+[ 11](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000400 __ZN11CommandData9TimeCheckER7RarTime
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000490 __ZN11CommandData9SizeCheckEx
+[ 13](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000530 __ZN11CommandData13IsProcessFileER10FileHeaderPbi
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000800 __ZN11CommandData14ProcessCommandEv
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ce0 __ZN11CommandData10GetArcNameEPcPwi
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000010d0 __ZN11CommandDataC1Ev
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000011a0 __ZN11CommandDataC2Ev
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001270 __ZN11CommandDataD1Ev
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001320 __ZN11CommandDataD2Ev
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002850 __ZN11CommandData10ReadConfigEiPPc
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002a10 __ZN11CommandData11ParseEnvVarEv
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002a40 __ZN11CommandData15IsConfigEnabledEiPPc
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002b50 __ZN11CommandData8ParseArgEPcPw
+[ 24](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIxE3AddEi
+AUX scnlen 0x76 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 26](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIxE3AddEi
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007e0 __ZN11CommandData10AddArcNameEPcPw
+[ 28](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001d0 __ZN11CommandData7OutHelpEv
+[ 29](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIxE4PushEx
+AUX scnlen 0x3d nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 31](sec  8)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIxE4PushEx
+[ 32](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000000d0 __ZN11CommandData12CheckWinSizeEv
+[ 33](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d20 __ZN11CommandData11GetExclAttrEPc
+[ 34](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000110 __ZN11CommandData9BadSwitchEPc
+[ 35](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00002790 __ZN11CommandData21ProcessSwitchesStringEPc
+[ 36](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000013d0 __ZN11CommandData13ProcessSwitchEPc
+[ 37](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData8IsSwitchEi
+[ 38](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIxE5ResetEv
+AUX scnlen 0x42 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 40](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIxE5ResetEv
+[ 41](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000db0 __ZN11CommandData5CloseEv
+[ 42](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ee0 __ZN11CommandData4InitEv
+[ 43](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x2f41 nreloc 302 nlnno 0
+[ 45](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x200 nreloc 120 nlnno 0
+[ 47](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x10 nreloc 0 nlnno 0
+[ 49](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x19d3 nreloc 238 nlnno 0
+[ 51](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x36 nreloc 0 nlnno 0
+[ 53](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 54](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 55](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 56](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 59](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 60](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[ 61](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 62](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strtol
+[ 63](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9GetStringEPcPwi
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9AddStringEPKcPKw
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11ListArchiveP11CommandData
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtract9DoExtractEP11CommandData
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtractD1Ev
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtractC1Ev
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8ScanTree7GetNextEP8FindData
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8ScanTreeD1Ev
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8ScanTreeC1EP10StringListibi
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetFileAttrPKcPKw
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5IsDirj
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z6GetExtPKc
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9stricompcPKcS0_
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10stricompcwPKwS0_
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7CmpNamePwS_i
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9GetStringEPPcPPw
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 81](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeleERS_
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimegeERS_
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7CmpNamePcS_i
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z17ConvertNameToFullPKcPc
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsFullPathPKc
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList6RewindEv
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11ConvertPathPKcPc
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7mprintfPKcz
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z5atoilPc
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _sprintf
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strpbrk
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isdigit
+[ 94](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7eprintfPKcz
+[ 95](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11GetPassword13PASSWORD_TYPEPKcPci
+[ 96](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11SetPriorityi
+[ 97](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z17InitSystemOptionsi
+[ 98](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _atoi
+[ 99](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTime10SetIsoTextEPc
+[100](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTime10SetAgeTextEPc
+[101](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _isspace
+[102](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9GetStringEv
+[103](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z14InitLogOptionsPc
+[104](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9strnicompPKcS0_i
+[105](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8stricompPKcS0_
+[106](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _getenv
+[107](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPc
+[108](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12ReadTextFilePcP10StringListbb11RAR_CHARSETbb
+[109](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsWildcardPKcPKw
+[110](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile8FastFindEPKcPKwP8FindDatab
+[111](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7RarTimeC1Ev
+[112](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9AddStringEPKc
+[113](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9IsPathDivi
+[114](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsDriveDivi
+[115](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strchr
+[116](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[117](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9strncpyzwPwPKwj
+[118](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strupperPc
+[119](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z13GetConfigNamePKcPcb
+[120](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z9FileExistPKcPKw
+[121](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[122](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8etoupperi
+[123](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpywPwPKwi
+[124](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[125](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringListD1Ev
+[126](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[127](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringListC1Ev
+[128](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znwj
+[129](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsD2Ev
+[130](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsC2Ev
+[131](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[132](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+filestr.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 filestr.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12ReadTextFilePcP10StringListbb11RAR_CHARSETbb
+[  3](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  5](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcEC1Ev
+[  6](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  4)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwED1Ev
+[  9](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIwEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 11](sec  7)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIwEC1Ei
+[ 12](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcE3AddEi
+AUX scnlen 0x6d nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 14](sec  8)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcE3AddEi
+[ 15](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 17](sec  5)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcED1Ev
+[ 18](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIcEC1Ei
+AUX scnlen 0x5c nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 20](sec  6)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIcEC1Ei
+[ 21](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x832 nreloc 36 nlnno 0
+[ 23](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 25](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 27](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0xa nreloc 0 nlnno 0
+[ 29](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __Unwind_SjLj_Resume
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 35](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _realloc
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler11MemoryErrorEv
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _malloc
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9AddStringEPKc
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strlen
+[ 42](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9AddStringEPKcPKw
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strlenwPKw
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4ReadEPvi
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File13SetHandleTypeE15FILE_HANDLETYPE
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler4ExitEi
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4OpenEPKcPKwbb
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5WOpenEPKcPKw
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD1Ev
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileC1Ev
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z13GetConfigNamePKcPcb
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+scantree.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 scantree.cpp
+File 
+[  2](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 1) 0x00000000 __ZN8ScanTreeC2EP10StringListibi
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[  4](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000090 __ZN8ScanTreeC1EP10StringListibi
+[  5](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000120 __ZN8ScanTreeD2Ev
+[  6](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000170 __ZN8ScanTreeD1Ev
+[  7](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00001110 __ZN8ScanTree7GetNextEP8FindData
+[  8](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000420 __ZN8ScanTree8FindProcEP8FindData
+[  9](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000001c0 __ZN8ScanTree12PrepareMasksEv
+[ 10](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x11b3 nreloc 87 nlnno 0
+[ 12](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 14](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 16](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x41 nreloc 0 nlnno 0
+[ 18](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x6 nreloc 0 nlnno 0
+[ 20](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 21](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 22](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 23](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 24](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __alloca
+[ 25](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 _ErrHandler
+[ 26](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 27](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7CmpNamePcS_i
+[ 28](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8LowAsciiPKw
+[ 29](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strrchrwPKwi
+[ 30](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strrchr
+[ 31](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z3LogPKcS0_z
+[ 32](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile4NextEP8FindDatab
+[ 33](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN12ErrorHandler12OpenErrorMsgEPKcS1_
+[ 34](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData9ExclCheckEPcb
+[ 35](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile8SetMaskWEPKw
+[ 36](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile7SetMaskEPKc
+[ 37](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFileC1Ev
+[ 38](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znwj
+[ 39](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFile8FastFindEPKcPKwP8FindDatab
+[ 40](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10IsWildcardPKcPKw
+[ 41](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcpywPwPKw
+[ 42](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 43](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPw
+[ 44](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z7strcatwPwPKw
+[ 45](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKw
+[ 46](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPc
+[ 47](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcat
+[ 48](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11PointToNamePKc
+[ 49](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9GetStringEPcPwi
+[ 50](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN8FindFileD1Ev
+[ 51](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[ 52](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z2StPKc
+[ 53](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+
+
+dll.o:     file format pe-i386
+
+SYMBOL TABLE:
+[  0](sec -2)(fl 0x00)(ty   0)(scl 103) (nx 1) 0x00000000 dll.cpp
+File 
+[  2](sec  4)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTV7Archive
+AUX scnlen 0x10 nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  4](sec  5)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI7Archive
+AUX scnlen 0xc nreloc 3 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  6](sec  8)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS7Archive
+AUX scnlen 0x9 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[  8](sec  6)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTI4File
+AUX scnlen 0x8 nreloc 2 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 10](sec  7)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata$_ZTS4File
+AUX scnlen 0x6 nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 12](sec  1)(fl 0x00)(ty  20)(scl   3) (nx 1) 0x00000000 __Z13RarErrorToDlli
+AUX tagndx 0 ttlsiz 0x0 lnnos 0 next 0
+[ 14](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000050 __Z11ProcessFilePviPcS0_PwS1_
+[ 15](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000450 _RARReadHeaderEx
+[ 16](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000007f0 _RARReadHeader
+[ 17](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ac0 _RARProcessFileW
+[ 18](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b00 _RARSetChangeVolProc
+[ 19](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b20 _RARSetCallback
+[ 20](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b40 _RARSetProcessDataProc
+[ 21](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b60 _RARSetPassword
+[ 22](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000b90 _RARGetDllVersion
+[ 23](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000ba0 _RARCloseArchive
+[ 24](sec 14)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD0Ev
+AUX scnlen 0xdd nreloc 13 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 26](sec 14)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD0Ev
+[ 27](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x000013f0 _RAROpenArchive
+[ 28](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000410 _RARProcessFile
+[ 29](sec  1)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000d30 _RAROpenArchiveEx
+[ 30](sec 13)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN7ArchiveD1Ev
+AUX scnlen 0xd2 nreloc 12 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 32](sec 13)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveD1Ev
+[ 33](sec 12)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhED1Ev
+AUX scnlen 0x19 nreloc 1 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 35](sec 12)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhED1Ev
+[ 36](sec  9)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text$_ZN5ArrayIhEC1Ev
+AUX scnlen 0x1c nreloc 0 nlnno 0 checksum 0x0 assoc 0 comdat 2
+[ 38](sec  9)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN5ArrayIhEC1Ev
+[ 39](sec  1)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .text
+AUX scnlen 0x146b nreloc 129 nlnno 0
+[ 41](sec  2)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .data
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 43](sec  3)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .bss
+AUX scnlen 0x0 nreloc 0 nlnno 0
+[ 45](sec 10)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .rdata
+AUX scnlen 0x2e nreloc 10 nlnno 0
+[ 47](sec 11)(fl 0x00)(ty   0)(scl   3) (nx 1) 0x00000000 .gcc_except_table
+AUX scnlen 0x6c nreloc 4 nlnno 0
+[ 49](sec  4)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTV7Archive
+[ 50](sec  5)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI7Archive
+[ 51](sec  8)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS7Archive
+[ 52](sec  6)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTI4File
+[ 53](sec  7)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTS4File
+[ 54](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv120__si_class_type_infoE
+[ 55](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTVN10__cxxabiv117__class_type_infoE
+[ 56](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Resume
+[ 57](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___gxx_personality_sj0
+[ 58](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Register
+[ 59](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Unwind_SjLj_Unregister
+[ 60](sec  0)(fl 0x00)(ty   0)(scl   2) (nx 0) 0x00000000 __ZTIi
+[ 61](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memset
+[ 62](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _memcpy
+[ 63](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _free
+[ 64](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10ReadHeaderEv
+[ 65](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtract18ExtractCurrentFileEP11CommandDataR7ArchiveiRb
+[ 66](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPw
+[ 67](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11NullToEmptyPKw
+[ 68](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11AddEndSlashPc
+[ 69](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z11NullToEmptyPKc
+[ 70](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10SeekToNextEv
+[ 71](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10CharToWidePKcPwi
+[ 72](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpywPwPKwi
+[ 73](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z8strncpyzPcPKcj
+[ 74](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4SeekExi
+[ 75](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z12MergeArchiveR7ArchiveP11ComprDataIObc
+[ 76](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive11SearchBlockEi
+[ 77](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File5CloseEv
+[ 78](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___cxa_end_catch
+[ 79](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 ___cxa_begin_catch
+[ 80](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtract18ExtractArchiveInitEP11CommandDataR7Archive
+[ 81](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive10GetCommentEP5ArrayIhEPS0_IwE
+[ 82](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7Archive9IsArchiveEb
+[ 83](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4File4OpenEPKcPKwbb
+[ 84](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandData10AddArcNameEPcPw
+[ 85](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Z10WideToCharPKwPci
+[ 86](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10StringList9AddStringEPKc
+[ 87](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __Znwj
+[ 88](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZdlPv
+[ 89](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10RAROptionsD1Ev
+[ 90](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN4FileD2Ev
+[ 91](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN7ArchiveC1EP10RAROptions
+[ 92](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtractD1Ev
+[ 93](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN10CmdExtractC1Ev
+[ 94](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandDataD1Ev
+[ 95](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 __ZN11CommandDataC1Ev
+[ 96](sec  0)(fl 0x00)(ty  20)(scl   2) (nx 0) 0x00000000 _strcpy
+
+

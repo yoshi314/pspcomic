@@ -1,0 +1,23 @@
+<!--
+	PSPComic Default Unicdoe Theme for version 1.0
+	By Jeffrey P. (Archaemic)
+	This file is public domain
+	DejaVuSansBold.ttf is (C) Bitstream, Inc. and Tavmjung Bah, used with
+	permission. Please see http://dejavu.sourceforge.net for more
+	information pertaining to DejaVu fonts.
+-->
+<?xml version="1.0"?>
+<theme name="Default Unicode theme" version="1.0.0">
+	<font filename="DejaVuSansBold.ttf">
+		<ranges>
+			<range begin="0" end="11631" />
+			<range begin="64256" end="65533" />
+		</ranges>
+		<color context="normal" red="255" green="255" blue="255" />
+		<color context="selected" red="200" green="200" blue="255" />
+		<color context="batterylow" red="255" green="50" blue="100" />
+		<color context="batterycharging" red="255" green="255" blue="50" />
+		<color context="secondary" red="150" green="255" blue="100" />
+		<color context="tertiary" red="100" green="100" blue="255" />
+	</font>
+</theme>

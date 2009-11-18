@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic English language file for version 1.0
+	By Iman Go.
+	This file is public domain
+-->
+<language name="Indonesia" version="1.0.0">
+	<ranges>
+		<range begin="0" end="127" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Kehabisan memori" />
+		<message id="sdl_error" value="Kesahalan SDL: %s" />
+		<message id="sdl_image_error" value="SDL_image kesalahan: %s" />
+		<message id="sdl_ttf_error" value="Kesahalan SDL_ttf: %s" />
+		<message id="open_book_error" value="Kesahalan membuka buku" />
+		<message id="open_file_error" value="Kesahalan membuka %s file" />
+		<message id="read_file_error" value="Kesahalan membaca %s file" />
+		<message id="load_theme_error" value="kesahalan membuka tema" />
+		<message id="load_page_error" value="Tidak bisa mengisi halaman dari arsip. Keluar..." />
+		<message id="load_language_error" value="Kesahalan pengisian bahasa" />
+		<message id="language_too_long_error" value="Muatan bahasa tidak mendukung tema ini" />
+		<message id="theme_too_short_error" value="Muatan tema tidak mendukung bahasa ini" />
+		<message id="zip_name_too_long_error" value="Nama file di zip terlalu panjang" />
+		<message id="empty_book_error" value="Buku kosong" />
+		<message id="insert_ms" value="Masukkan kartu memori" />
+		<message id="internal_error" value="Kesalahan dalam" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Pengisian..." />
+		<message id="closing" value="Menutup program..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Terima" />
+		<message id="cancel" value="Batal" />
+		<message id="more_above" value="[Lagi]" />
+		<message id="more_below" value="[Lagi]" />
+		<message id="go_back" value="&lt; Kembali" />
+		<message id="reload_menu" value="Mengisi kembali menu" />
+		<message id="theme_preview" value="Tekan x untuk memilih tema atau segitiga untuk kembali" />
+		<message id="load_last" value="Mengisi komik book yang terakhir dibuka" />
+		<message id="load_saved" value="Mengisi Komik yang telah disimpan" />
+		<message id="no_comics" value="Silakan menaruh komik di folder /comics" />
+		<message id="no_themes" value="Kamu tidak mempunyai tema. Silakan menempatkan kembali tema aslinya." />
+		<message id="open_dir" value="Membuka directory ini" />
+		<!-- Main menu -->
+		<message id="open_book" value="Membuka buku komik..." />
+		<message id="close_book" value="Menutup buku komik" />
+		<message id="next_book" value="Buku komik selanjutnya" />
+		<message id="prev_book" value="Buku komik sebelumnya" />
+		<message id="jump_page" value="Lompat ke halaman..." />
+		<message id="load_bookmark" value="Mengisi penunjuk halaman buku" />
+		<message id="set_bookmark" value="Mengatur penunjuk halaman buku" />
+		<message id="set_saved" value="Menyimpan buku komik" />
+		<message id="more_bookmark" value="Lebih banyak lagi fungsi penunjuk halaman buku..." />
+		<message id="config" value="Konfigurasi..." />
+		<message id="about" value="Tentang" />
+		<message id="quit" value="Keluar" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Mengubah metode resize ke bulatan terdekat" />
+		<message id="resize_to_resample" value="Mengubah metode menaksir bentuk ke contohnya" />
+		<message id="adjust_clock" value="Menyetel jam seringnya..." />
+		<message id="adjust_pan" value="Menyetel pan rate..." />
+		<message id="enable_zoom_persist" value="Menyalakan tingkatan kegigihan zoom" />
+		<message id="disable_zoom_persist" value="Mematikan tingkatan kegigihan zoom" />
+		<message id="enable_rotate_persist" value="Menyalakan kegigihan putaran" />
+		<message id="disable_rotate_persist" value="Mematikan kegigihan putaran" />
+		<message id="adjust_scroll_skip" value="Menu mengatur kecepatan scrolling..." />
+		<message id="enable_manga_mode" value="Menyalakan manga mode" />
+		<message id="disable_manga_mode" value="Mematikan manga mode" />
+		<message id="enable_bookmark_on_load" value="Melompat ke pembatas buku" />
+		<message id="disable_bookmark_on_load" value="Jangan melompat ke pembatas buku" />
+		<message id="set_autozoom" value="Mengatur ke autozoom..." />
+		<message id="set_zoom_box_w" value="mengatur lebar zoom box..." />
+		<message id="set_zoom_box_h" value="Mengatur tinggi zoom box..." />
+		<message id="enable_precaching" value="Menyalakan precaching" />
+		<message id="disable_precaching" value="Mematikan precaching" />
+		<message id="enable_singlehanded" value="Menyalakan mode single-handed" />
+		<message id="disable_singlehanded" value="Mematikan mode single-handed" />
+		<message id="enable_analog" value="Menyalakan analog nub" />
+		<message id="disable_analog" value="Mematikan analog nub" />
+		<message id="set_theme" value="Menganti tema..." />
+		<message id="set_language" value="Menganti bahasa..." />
+		<message id="save_config" value="Menyimpan konfigurasi" />
+		<message id="load_config" value="Membuka konfigurasi" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Menghapus penunjuk halaman buku komik ini" />
+		<message id="delete_all_bookmarks" value="Menghapus semua penunjuk halaman buku" />
+		<message id="purge_bookmarks" value="Purge penunjuk halaman buku" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Mencocokan dengan lebar layar" />
+		<message id="full_view" value="Halaman sesuai lebar aslinya" />
+		<message id="twice_width" value="2 halaman menjadi 1" /> 
+		<message id="autodetect" value="Autodetect spread mode" />
+		<!-- Other menus -->
+		<message id="page" value="Halaman %u: " />
+		<message id="adjust_clock_top" value="Mengatur clock frequency (MHz)" />
+		<message id="adjust_pan_top" value="Mengatur perbandingan pan:" />
+		<message id="adjust_scroll_skip_top" value="Mengatur scroll skip:" />
+		<message id="adjust_zoom_box_w_top" value="Mengatur lebar kotak pembersar:" />
+		<message id="adjust_zoom_box_h_top" value="Mengatur tinggi kotak pembesar:" />
+	</messages>
+</language>

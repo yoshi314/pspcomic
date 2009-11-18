@@ -1,0 +1,43 @@
+OBJS = zip/ioapi.o zip/unzip.o pspcomic.o xmlfuncs.o rar.o gui.o gfx.o \
+	language.o font.o utf8_sjis.o
+
+#CFLAGS = -G0 -L. -O2 #Normal build (broken)
+CFLAGS = -G0 -L. -g -Wall -DDEBUG -DEXPERIMENTAL #Debug build
+CXXFLAGS = $(CFLAGS) -fno-exceptions -fno-rtti
+LIBS = -lSDL -lSDL_image -lpng -lz -ljpeg -lpspunrar -lpsptinyxml \
+	-lpsppower -lstdc++ -lSDL_ttf -lfreetype
+
+#Use USB
+CFLAGS += -DUSE_USB
+LIBS += -lpspusb -lpspusbstor
+
+ifndef PSP_FW_VERSION
+DEST = 1.50
+REAL_DEST = $(DEST)/pspcomic
+EXTRA_TARGETS = EBOOT.PBP kxploit
+else
+DEST = 3.xx/pspcomic
+REAL_DEST = $(DEST)
+EXTRA_TARGETS = EBOOT.PBP
+BUILD_PRX = 1
+PSP_LARGE_MEMORY=1
+endif
+
+TARGET = $(DEST)/pspcomic
+
+PSP_EBOOT_TITLE = PSPComic v1.0.1
+PSP_EBOOT_ICON = "icon0.png"
+#PSP_EBOOT_PIC1 = "pic1.png"
+
+
+PSPSDK=$(shell psp-config --pspsdk-path)
+PSPBIN = $(PSPSDK)/../bin
+SDL_FLAGS = $(shell $(PSPBIN)/sdl-config --cflags)
+CFLAGS += $(shell echo $(SDL_FLAGS) | sed -re s/-Dmain=\\S+//) #Remove main redefinition
+SDL_LIBS = $(shell $(PSPBIN)/sdl-config --libs)
+LIBS += $(shell echo $(SDL_LIBS) | sed -e s/-lSDLmain//) #Remove SDLmain from libs
+include $(PSPSDK)/lib/build.mak
+
+all:
+	cp -f about.png $(REAL_DEST)
+	cp -f notheme.png $(REAL_DEST)

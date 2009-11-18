@@ -1,0 +1,32 @@
+CC=gcc
+CXX=g++
+LIBS=-lunrar -ltinyxml -lz -lSDL_image -lSDL_ttf -lfreetype #-lSDL_gfx
+SDLFLAGS=`sdl-config --cflags`
+CFLAGS+= -Wall -g -L. -DDEBUG $(SDLFLAGS) -DEXPERIMENTAL #-DUSE_GFX
+CXXFLAGS=$(CFLAGS)
+SDL_LD_FLAGS=`sdl-config --libs`
+
+COBJS = pspcomic.o gui.o gfx.o language.o font.o utf8_sjis.o
+CXXOBJS = rar.o xmlfuncs.o
+CLIBOBJS =  zip/unzip.o zip/ioapi.o
+ifeq ($(WINDOWS),1)
+CLIBOBJS += zip/iowin32.o
+CFLAGS += -mwindows
+EXE=.exe
+endif
+
+all: build
+
+$(COBJS):
+	$(CC) $(CFLAGS) -c -o $@ $*.c
+
+$(CXXOBJS):
+	$(CXX) $(CXXFLAGS) -c -o $@ $*.cpp
+
+$(CLIBOBJS):
+	$(CC) $(CLIBFLAGS) -c -o $@ $*.c
+
+build: $(COBJS) $(CXXOBJS) $(CLIBOBJS)
+	$(CXX) $(COBJS) $(CXXOBJS) $(CLIBOBJS) \
+		-o pspcomic$(EXE) $(CXXFLAGS) $(SDL_LD_FLAGS) $(LIBS)
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic Dutch language file for version 1.0
+	By Paul B. (Paaaaaaaaaaul) 
+	Edited by Chrizzly
+	This file is public domain
+
+-->
+<language name="Nederlands" version="1.0.1">
+	<ranges>
+		<range begin="0" end="255" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Geen geheugen meer" />
+		<message id="sdl_error" value="SDL fout: %s" />
+		<message id="sdl_image_error" value="SDL_image fout: %s" />
+		<message id="sdl_ttf_error" value="SDL_ttf fout: %s" />
+		<message id="open_book_error" value="Fout bij openen boek" />
+		<message id="open_file_error" value="Fout bij openen %s bestand" />
+		<message id="read_file_error" value="Fout bij lezen %s bestand" />
+		<message id="load_theme_error" value="Fout laden thema" />
+		<message id="load_page_error" value="Kan de pagina niet laden uit archief. Sluiten..." />
+		<message id="load_language_error" value="Fout laden taal" />
+		<message id="language_too_long_error" value="De geladen taal ondersteunt dit thema niet" />
+		<message id="theme_too_short_error" value="Het geladen thema ondersteunt deze taal niet" />
+		<message id="zip_name_too_long_error" value="Bestandsnaam in zip is te lang" />
+		<message id="empty_book_error" value="Boek is leeg" />
+		<message id="insert_ms" value="Plaats een Memory Stick Duo" />
+		<message id="internal_error" value="Interne fout" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Laden..." />
+		<message id="closing" value="Programma sluiten..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Accepteren" />
+		<message id="cancel" value="Niet accepteren" />
+		<message id="more_above" value="[Meer]" />
+		<message id="more_below" value="[Meer]" />
+		<message id="go_back" value="&lt; Ga terug" />
+		<message id="reload_menu" value="Herlaad menu" />
+		<message id="theme_preview" value="Druk kruis om een thema te selecteren of driehoek om terug te gaan" />
+		<message id="load_last" value="Laad laatst geopend stripboek" />
+		<message id="load_saved" value="Laad opgeslagen stripboek" />
+		<message id="no_comics" value="Plaats het stripboek in de /comics map alsjeblieft" />
+		<message id="no_themes" value="Je hebt geen thema's. Vervang het standaard thema alsjeblieft." />
+		<message id="open_dir" value="Open deze locatie" />
+		<!-- Main menu -->
+		<message id="open_book" value="Open stripboek..." />
+		<message id="close_book" value="Sluit stripboek" />
+		<message id="next_book" value="Volgend stripboek" />
+		<message id="prev_book" value="Vorig stripboek" />
+		<message id="jump_page" value="Spring naar pagina..." />
+		<message id="load_bookmark" value="Laad bladwijzers" />
+		<message id="set_bookmark" value="Zet als bladwijzer" />
+		<message id="set_saved" value="Sla stripboek op" />
+		<message id="more_bookmark" value="Meer bladwijzers opties..." />
+		<message id="config" value="Configuratie..." />
+		<message id="about" value="Over" />
+		<message id="quit" value="Sluiten" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Stel het verander grootte methode naar dichtsbijzijnde" />
+		<message id="resize_to_resample" value="Stel verander grootte naar voorbeeld in" />
+		<message id="adjust_clock" value="Verander klok frequentie..." />
+		<message id="adjust_pan" value="Verander scroll snelheid..." />
+		<message id="enable_zoom_persist" value="Zet zoom level aan" />
+		<message id="disable_zoom_persist" value="Zet zoom level uit" />
+		<message id="enable_rotate_persist" value="Zet draaiing aan" />
+		<message id="disable_rotate_persist" value="Zet draaiing uit" />
+		<message id="adjust_scroll_skip" value="Verander menu scroll snelheid..." />
+		<message id="enable_manga_mode" value="Zet manga modus aan" />
+		<message id="disable_manga_mode" value="Zet manga modus uit" />
+		<message id="enable_bookmark_on_load" value="Spring naar bladwijzer van het geladen stripboek" />
+		<message id="disable_bookmark_on_load" value="Spring niet naar bladwijzer van het geladen stripboek" />
+		<message id="set_autozoom" value="Verander autozoom modus..." />
+		<message id="set_zoom_box_w" value="Stel zoom box breedte in..." />
+		<message id="set_zoom_box_h" value="Stel zoom box hoogte in..." />
+		<message id="enable_precaching" value="Zet precaching aan" />
+		<message id="disable_precaching" value="Zet precaching uit" />
+		<message id="enable_singlehanded" value="Zet één-hand modus aan" />
+		<message id="disable_singlehanded" value="Zet één-hand modus uit" />
+		<message id="enable_analog" value="Zet analoge stick aan" />
+		<message id="disable_analog" value="Zet analoge stick uit" />
+		<message id="set_theme" value="Verander thema..." />
+		<message id="set_language" value="Verander taal..." />
+		<message id="save_config" value="Sla configuratie op" />
+		<message id="load_config" value="Laad configuratie" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Verwijder bladwijzers voor dit stripboek" />
+		<message id="delete_all_bookmarks" value="Verwijder alle bladwijzers" />
+		<message id="purge_bookmarks" value="Verwijder alle bladwijzers die ooit zijn opgeslagen" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Stel pagina naar screenbreedte in" />
+		<message id="full_view" value="Bekijk pagina op originele breedte" />
+		<message id="twice_width" value="Zet pagina op twee keer screenbreedte (Goed om te spreiden)" />
+		<message id="autodetect" value="Autodetect spreidings modus" />
+		<!-- Other menus -->
+		<message id="page" value="Pagina %u: " />
+		<message id="adjust_clock_top" value="Stel klok frequentie in (MHz)" />
+		<message id="adjust_pan_top" value="Zet scrolling snelheid:" />
+		<message id="adjust_scroll_skip_top" value="Verander het overslaan van scrollen:" />
+		<message id="adjust_zoom_box_w_top" value="Zet zoom box breedte:" />
+		<message id="adjust_zoom_box_h_top" value="Zet zoom box hoogte:" />
+	</messages>
+</language>

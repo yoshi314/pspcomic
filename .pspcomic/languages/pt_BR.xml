@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic Brazilian Portuguese language file for version 1.0
+	By Akira Yamamoto
+	This file is public domain
+-->
+<language name="Português - Brasil" version="1.0.0">
+	<ranges>
+		<range begin="0" end="255" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Memória insuficiente" />
+		<message id="sdl_error" value="Erro SDL: %s" />
+		<message id="sdl_image_error" value="Erro SDL_image: %s" />
+		<message id="sdl_ttf_error" value="Errp SDL_ttf: %s" />
+		<message id="open_book_error" value="Não foi possível abrir o livro" />
+		<message id="open_file_error" value="Erro ao abrir o arquivo %s" />
+		<message id="read_file_error" value="Erro na leitura do arquvio %s" />
+		<message id="load_theme_error" value="Erro ao abrir o tema" />
+		<message id="load_page_error" value="Não foi possível abrir a página do arquivo. Abortando..." />
+		<message id="load_language_error" value="Erro ao carregar a imagem" />
+		<message id="language_too_long_error" value="O arquivo de língua carregado não suporta este tema" />
+		<message id="theme_too_short_error" value="O tema carregado não suporta este arquivo de língua" />
+		<message id="zip_name_too_long_error" value="Nome do arquivo zip é muito longo" />
+		<message id="empty_book_error" value="O livro está vazio" />
+		<message id="internal_error" value="Erro interno" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Carregando..." />
+		<message id="closing" value="Fechando programa..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Aceitar" />
+		<message id="cancel" value="Cancelar" />
+		<message id="more_above" value="[Mais]" />
+		<message id="more_below" value="[Mais]" />
+		<message id="go_back" value="&lt; Voltar" />
+		<message id="reload_menu" value="Recarregar menu" />
+		<message id="theme_preview" value="Pressione cruz para selecionar o tema ou triângulo para voltar" />
+		<message id="load_last" value="Carregar último livro aberto" />
+		<message id="load_saved" value="Carregar livro salvo" />
+		<message id="no_comics" value="Por favor, coloque os livros na pasta /comics" />
+		<message id="no_themes" value="Você não tem nenhum tema, por favor substitua o tema padrão" />
+		<message id="open_dir" value="Abrir este diretório" />
+		<!-- Main menu -->
+		<message id="open_book" value="Abrir livro..." />
+		<message id="close_book" value="Fechar livro" />
+		<message id="next_book" value="Próximo livro" />
+		<message id="prev_book" value="Livro anterior" />
+		<message id="jump_page" value="Pular para a página..." />
+		<message id="load_bookmark" value="Carregar marca-página" />
+		<message id="set_bookmark" value="Definir marca-página" />
+		<message id="set_saved" value="Salvar livro" />
+		<message id="more_bookmark" value="Mais operações de marca-página" />
+		<message id="config" value="Configuração..." />
+		<message id="about" value="Sobre" />
+		<message id="quit" value="Sair" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Mudar método de redimensionamento para Nearest Neighbor" />
+		<message id="resize_to_resample" value="Mudar método de redimensionamento para Resample" />
+		<message id="adjust_clock" value="Ajustar freqüencia de Clock..." />
+		<message id="adjust_pan" value="Ajustar a taxa de pan..." />
+		<message id="enable_zoom_persist" value="Habilitar a persistência do grau de zoom" />
+		<message id="disable_zoom_persist" value="Desabilitar a persistência do grau de zoom" />
+		<message id="enable_rotate_persist" value="Habilitar a persistência de rotação" />
+		<message id="disable_rotate_persist" value="Desabilitar a persistência de rotação" />
+		<message id="adjust_scroll_skip" value="Ajustar a velocidade da rolagem do menu..." />
+		<message id="enable_manga_mode" value="Habilitar o modo mangá" />
+		<message id="disable_manga_mode" value="Desabilitar o modo mangá" />
+		<message id="enable_bookmark_on_load" value="Ir para o marca-página ao carregar livro" />
+		<message id="disable_bookmark_on_load" value="Ignorar o marca-página ao carregar o livro" />
+		<message id="set_autozoom" value="Ajustar o modo autozoom..." />
+		<message id="set_zoom_box_w" value="Ajustar a largura da caixa de zoom..." />
+		<message id="set_zoom_box_h" value="Ajustar a altura da caixa de zoom..." />
+		<message id="enable_precaching" value="Habilitar o precaching" />
+		<message id="disable_precaching" value="Desabilitar o precaching" />
+		<message id="enable_singlehanded" value="Habilitar o modo uma-mão" />
+		<message id="disable_singlehanded" value="Desabilitar o modo uma-mão" />
+		<message id="enable_analog" value="Habilitar o nub analógico" />
+		<message id="disable_analog" value="Desabilitar o nub analógico" />
+		<message id="set_theme" value="Mudar tema..." />
+		<message id="set_language" value="Mudar arquivo de língua..." />
+		<message id="save_config" value="Salvar configurações" />
+		<message id="load_config" value="Carregar configurações" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Apagar marca-páginas neste livro" />
+		<message id="delete_all_bookmarks" value="Apagar todos os marca-páginas" />
+		<message id="purge_bookmarks" value="Purgar marca-páginas" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Ajustar a página para caber na tela" />
+		<message id="full_view" value="Ver páginas em sua largura original" />
+		<message id="twice_width" value="Ajustar página para o dobro da largura da tela (Bom para páginas duplas)" />
+		<message id="autodetect" value="Detectar páginas duplas automaticamente" />
+		<!-- Other menus -->
+		<message id="page" value="Página %u: " />
+		<message id="adjust_clock_top" value="Ajustar a freqüência de Clock (MHz)" />
+		<message id="adjust_pan_top" value="Ajustar taxa de pan:" />
+		<message id="adjust_scroll_skip_top" value="Ajustar velocidade de rolamento:" />
+		<message id="adjust_zoom_box_w_top" value="Ajustar a largura da caixa de zoom:" />
+		<message id="adjust_zoom_box_h_top" value="Ajustar a altura da caixa de zoom:" />
+	</messages>
+</language>

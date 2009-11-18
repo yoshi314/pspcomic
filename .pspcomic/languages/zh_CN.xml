@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic Simplified Chinese language file for version 1.0
+	By ppyyf (CNGBA)
+	This file is public domain
+-->
+<language name="简体中文" version="1.0.0">
+	<ranges>
+		<range begin="0" end="127" />
+		<range begin="19968" end="40891" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="内存不足" />
+		<message id="sdl_error" value="SDL 错误: %s" />
+		<message id="sdl_image_error" value="SDL图像错误: %s" />
+		<message id="sdl_ttf_error" value="SDL_ttf错误: %s" />
+		<message id="open_book_error" value="打开图书错误" />
+		<message id="open_file_error" value="文件打开错误 %s" />
+		<message id="read_file_error" value="文件读取错误 %s" />
+		<message id="load_theme_error" value="载入主题错误" />
+		<message id="load_page_error" value="无法从压缩文档中载入页面。 退出..." />
+		<message id="load_language_error" value="载入语言错误" />
+		<message id="language_too_long_error" value="当前语言不支持该主题" />
+		<message id="theme_too_short_error" value="当前主题不支持该语言" />
+		<message id="zip_name_too_long_error" value="压缩文件中文件名太长" />
+		<message id="empty_book_error" value="该图书无内容" />
+		<message id="internal_error" value="内部错误" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="正在载入..." />
+		<message id="closing" value="关闭程序..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="确定" />
+		<message id="cancel" value="取消" />
+		<message id="more_above" value="[更多]" />
+		<message id="more_below" value="[更多]" />
+		<message id="go_back" value="&lt; 返回" />
+		<message id="reload_menu" value="重载菜单" />
+		<message id="theme_preview" value="按Ｘ选择主题或者按△返回" />
+		<message id="load_last" value="载入最近打开的图书" />
+		<message id="load_saved" value="载入保存的图书" />
+		<message id="no_comics" value="请将图书放入/comics文件夹" />
+		<message id="no_themes" value="当前无主题。请替换默认主题。" />
+		<message id="open_dir" value="进入文件夹" />
+		<!-- Main menu -->
+		<message id="open_book" value="打开图书..." />
+		<message id="close_book" value="关闭图书" />
+		<message id="next_book" value="下一本图书" />
+		<message id="prev_book" value="上一本图书" />
+		<message id="jump_page" value="跳转至页面..." />
+		<message id="load_bookmark" value="载入书签" />
+		<message id="set_bookmark" value="插入书签" />
+		<message id="set_saved" value="保存图书" />
+		<message id="more_bookmark" value="更多书签操作..." />
+		<message id="config" value="配置..." />
+		<message id="about" value="关于" />
+		<message id="quit" value="退出" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="使用最近邻算法缩放图像" />
+		<message id="resize_to_resample" value="使用重采样缩放图像" />
+		<message id="adjust_clock" value="调频..." />
+		<message id="adjust_pan" value="设置宽高比..." />
+		<message id="enable_zoom_persist" value="开启缩放比例自动记忆" />
+		<message id="disable_zoom_persist" value="关闭缩放比例自动记忆" />
+		<message id="enable_rotate_persist" value="开启旋转角度自动记忆" />
+		<message id="disable_rotate_persist" value="关闭旋转角度自动记忆" />
+		<message id="adjust_scroll_skip" value="调整菜单滚动速度..." />
+		<message id="enable_manga_mode" value="开启日式漫画模式" />
+		<message id="disable_manga_mode" value="关闭日式漫画模式" />
+		<message id="enable_bookmark_on_load" value="载入图书时自动跳转至书签位置" />
+		<message id="disable_bookmark_on_load" value="载入图书时不自动跳转至书签位置" />
+		<message id="set_autozoom" value="设置自动缩放模式..." />
+		<message id="set_zoom_box_w" value="设置缩放区宽度..." />
+		<message id="set_zoom_box_h" value="设置缩放区高度..." />
+		<message id="enable_precaching" value="开启预读" />
+		<message id="disable_precaching" value="禁用预读" />
+		<message id="enable_singlehanded" value="开启单手操控模式" />
+		<message id="disable_singlehanded" value="关闭单手操控模式" />
+		<message id="enable_analog" value="启用摇杆" />
+		<message id="disable_analog" value="禁用摇杆" />
+		<message id="set_theme" value="更改主题..." />
+		<message id="set_language" value="更改语言..." />
+		<message id="save_config" value="保存配置" />
+		<message id="load_config" value="载入配置" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="删除本书书签" />
+		<message id="delete_all_bookmarks" value="删除所有书签" />
+		<message id="purge_bookmarks" value="删除对应图书不存在的书签" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="缩放至屏幕宽度" />
+		<message id="full_view" value="原始宽度" />
+		<message id="twice_width" value="双倍宽度（适用于跨页画面）" />
+		<message id="autodetect" value="自动检测跨页模式" />
+		<!-- Other menus -->
+		<message id="page" value="第%u页: " />
+		<message id="adjust_clock_top" value="调频 (兆赫)" />
+		<message id="adjust_pan_top" value="设置宽高比:" />
+		<message id="adjust_scroll_skip_top" value="调整菜单滚动速度:" />
+		<message id="adjust_zoom_box_w_top" value="设置缩放区宽度:" />
+		<message id="adjust_zoom_box_h_top" value="设置缩放区高度:" />
+	</messages>
+</language>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic Swedish language file for version 1.0
+	By Niklas H
+	This file is public domain
+-->
+<language name="Svenska" version="1.0.0">
+	<ranges>
+		<range begin="0" end="255" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Slut på minne" />
+		<message id="sdl_error" value="SDL fel: %s" />
+		<message id="sdl_image_error" value="SDL_image fel: %s" />
+		<message id="sdl_ttf_error" value="SDL_ttf fel: %s" />
+		<message id="open_book_error" value="Fel vid öppnande av bok" />
+		<message id="open_file_error" value="Fel vid öppnande %s fil" />
+		<message id="read_file_error" value="Fel vid läsandet %s av fil" />
+		<message id="load_theme_error" value="Fel vid laddande av tema" />
+		<message id="load_page_error" value="Kunde inte ladda sida från arkiv. avbryter..." />
+		<message id="load_language_error" value="Fel vid laddande av språk" />
+		<message id="language_too_long_error" value="Det laddade språket stödjer inte detta tema" />
+		<message id="theme_too_short_error" value="Det laddade temat stödjer inte detta språk" />
+		<message id="zip_name_too_long_error" value="filnamnet i zipfilen är för långt" />
+		<message id="empty_book_error" value="Boken är tom" />
+		<message id="internal_error" value="Internt fel" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Laddar..." />
+		<message id="closing" value="Stänger programmet..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Acceptera" />
+		<message id="cancel" value="Avbryt" />
+		<message id="more_above" value="[Mer]" />
+		<message id="more_below" value="[Mer]" />
+		<message id="go_back" value="&lt; Gå tillbaka" />
+		<message id="reload_menu" value="Ladda om meny" />
+		<message id="theme_preview" value="Tryck på korsknappen för att välja tema eller triangel för att gå tillbaka" />
+		<message id="load_last" value="Ladda senaste öppnade seriebok" />
+		<message id="load_saved" value="Ladda sparad seriebok" />
+		<message id="no_comics" value="Lägg serieböcker i /comics mappen" />
+		<message id="no_themes" value="Du har inga teman.Var vänlig och installera standardtemat." />
+		<message id="open_dir" value="Öppna denna mapp" />
+		<!-- Main menu -->
+		<message id="open_book" value="Öppna seriebok..." />
+		<message id="close_book" value="Stäng seriebok" />
+		<message id="next_book" value="Nästa seriebok" />
+		<message id="prev_book" value="Föregående seriebok" />
+		<message id="jump_page" value="Gå till sida..." />
+		<message id="load_bookmark" value="Ladda bokmärke" />
+		<message id="set_bookmark" value="Spara bokmärke" />
+		<message id="set_saved" value="Spara seriebok" />
+		<message id="more_bookmark" value="Flera bokmärkesalternativ..." />
+		<message id="config" value="Inställningar..." />
+		<message id="about" value="Om" />
+		<message id="quit" value="Avsluta" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="ändra bildstorleksmetod till närmaste granne" />
+		<message id="resize_to_resample" value="ändra bildstorleksmetod till resample" />
+		<message id="adjust_clock" value="Ändra klockfrekvens..." />
+		<message id="adjust_pan" value="ändra panorama hastighet..." />
+		<message id="enable_zoom_persist" value="Slå på fast zoomnivå" />
+		<message id="disable_zoom_persist" value="Slå av fast zoomnivå" />
+		<message id="enable_rotate_persist" value="Slå på fast rotation" />
+		<message id="disable_rotate_persist" value="Slå av fast rotation" />
+		<message id="adjust_scroll_skip" value="Ändra menyns skippningsnivå..." />
+		<message id="enable_manga_mode" value="Slå på mangaläge" />
+		<message id="disable_manga_mode" value="Slå av mangaläge" />
+		<message id="enable_bookmark_on_load" value="Hoppa till bokmärke när seriebok laddas" />
+		<message id="disable_bookmark_on_load" value="Hoppa till bokmärke när seriebok laddas" />
+		<message id="set_autozoom" value="ställ in automatiskt zoomläge..." />
+		<message id="set_zoom_box_w" value="Ställ in zoomvidd ..." />
+		<message id="set_zoom_box_h" value="Ställ in zoomhöjd..." />
+		<message id="enable_precaching" value="Slå på precaching" />
+		<message id="disable_precaching" value="Slå av precaching" />
+		<message id="enable_singlehanded" value="Slå på enhandsläge" />
+		<message id="disable_singlehanded" value="Slå av enhandsläge" />
+		<message id="enable_analog" value="Slå på analog joystick" />
+		<message id="disable_analog" value="Slå av analog joystick" />
+		<message id="set_theme" value="Ändra tema..." />
+		<message id="set_language" value="Ändra språk..." />
+		<message id="save_config" value="Spara inställningar" />
+		<message id="load_config" value="Ladda inställningar" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Ta bort bokmärken för denna seriebok" />
+		<message id="delete_all_bookmarks" value="Ta bort alla bokmärken" />
+		<!-- Purge bookmarks deletes all bookmarks that point to comics that no longer exist -->
+		<message id="purge_bookmarks" value="Töm bokmärken" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Passa sidan till skärmbredd" />
+		<message id="full_view" value="Se sidan i originalbredd" />
+		<message id="twice_width" value="Passa sidan till dubbla skärmbredden" />
+		<message id="autodetect" value="Upptäck dubbelsidor automatiskt" />
+		<!-- Other menus -->
+		<message id="page" value="Page %u: " />
+		<message id="adjust_clock_top" value="Ställ in klockfrekvensen (MHz)" />
+		<message id="adjust_pan_top" value="Ställ in panoramahastighet:" />
+		<message id="adjust_scroll_skip_top" value="Ställ in scroll skipp:" />
+		<message id="adjust_zoom_box_w_top" value="Ställ in zoomvidd:" />
+		<message id="adjust_zoom_box_h_top" value="Ställ in zoomhöjd:" />
+	</messages>
+</language>

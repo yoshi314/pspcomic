@@ -1,0 +1,23 @@
+<!--
+	PSPComic Default Unicdoe Theme for version 1.0
+	By Jeffrey P. (Archaemic)
+	This file is public domain
+	YOzB04NP.TTF (YOzFontNP04 Bold) is (C) Y.OzVox (Free use font).
+	Please see http://en.wikipedia.org/wiki/Y.OzFontN for more information
+	pertaining to Y.OzFontN.
+-->
+<?xml version="1.0"?>
+<theme name="Default CJK theme" version="1.0.0">
+	<font filename="ShanHeiSun.ttf" antialias="yes" size="16" lspacing="16">
+		<ranges>
+			<range begin="0" end="451" />
+			<range begin="8192" end="65533" />
+		</ranges>
+		<color context="normal" red="255" green="255" blue="255" />
+		<color context="selected" red="200" green="200" blue="255" />
+		<color context="batterylow" red="255" green="50" blue="100" />
+		<color context="batterycharging" red="255" green="255" blue="50" />
+		<color context="secondary" red="150" green="255" blue="100" />
+		<color context="tertiary" red="100" green="100" blue="255" />
+	</font>
+</theme>

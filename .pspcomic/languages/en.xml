@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic English language file for version 1.0
+	By Jeffrey P. (Archaemic)
+	This file is public domain
+
+	Notes on translating:
+	Only translate the what is contained in the value attributes. Also, put the
+	name of the language you're translating to in the name attribute in the. Put
+	it in the language you're translating it to, not English. Do not alter the
+	id attributes at all, as this will break the translation engine. Only alter
+	the value attribute. Also, you should replace the "By Jeffrey P." line with
+	your name or screen name, as well as the English with the name of the
+	language to which you are translating. Once you are done translating, you
+	should remove all of the translation notes.
+	
+	The version number in the xml declaration should not be changed under any
+	circumstances. The version number in the language element refers to the
+	version of PSPComic that the language file is for, not the version of the
+	language file itself.
+
+	Make sure to leave the %s and the %u in the translation. They represent
+	where another string or number, repsectively, will take its place when the
+	program is run. Also, a percent sign, use two consecutive percent signs. The
+	string will not be parsed properly otherwise. To add angle brackets, use
+	&lt; or &gt;, to add an ampersand, use &amp;, and to add a quotation mark,
+	use &quot;.
+
+	The encoding must be UTF-8. No other encodings are supported by PSPComic.
+
+	The ranges element contains range elements that describe which ranges must
+	be in the theme loaded for the language to load. If it's a Romance or
+	Germanic language, the range should probably be 0-255. Make sure to check
+	the codepoint of special characters to see if you should be using Unicode.
+	If you're editing this with Notepad, Notepad will warn you if you're using
+	Unicode characters that are not part of ISO-8859-1. If you save the file as
+	UTF-8, make sure the encoding attribute is set to UTF-8 as well.
+
+	Some common ranges include:
+	English: 0 - 127
+	Latin-1 (Romance and some Germanic languages): 0 - 255
+	Latin Extended (most other languages that use the Latin alphabet): 0 - 591
+	Greek: 900 - 974 (sometimes 884 - 1023)
+	Cyrillic (Russian, etc.): 1024 - 1279 (sometimes 1024 - 1299)
+	Thai: 3585 - 3675
+	Japanese kana, punctuation: 12288 - 12543
+	Zhuyin/Bopomofo: 12549 - 12588
+	Other Japanese symbols: 12832 - 13054
+	CJK Unified Ideographs (Chinese, Japanese, Korean): 19968 - 40891
+	Hangul: 44032 - 55214
+	Half- and fullwidth forms (used in Japanese): 65281 - 65518
+
+	Right-to-left languages such as Arabic are not currently supported.
+-->
+<language name="English" version="1.0.0">
+	<ranges>
+		<range begin="0" end="127" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Out of memory" />
+		<message id="sdl_error" value="SDL Error: %s" />
+		<message id="sdl_image_error" value="SDL_image Error: %s" />
+		<message id="sdl_ttf_error" value="SDL_ttf Error: %s" />
+		<message id="open_book_error" value="Error opening book" />
+		<message id="open_file_error" value="Error opening %s file" /> <!-- %s is either zip or rar -->
+		<message id="read_file_error" value="Error reading %s file" /> <!-- %s is either zip or rar -->
+		<message id="load_theme_error" value="Error loading theme" />
+		<message id="load_page_error" value="Could not load page from archive. Bailing..." />
+		<message id="load_language_error" value="Error loading language" />
+		<message id="language_too_long_error" value="The loaded language does not support this theme" />
+		<message id="theme_too_short_error" value="The loaded theme does not support this language" />
+		<message id="zip_name_too_long_error" value="Filename in zip too long" />
+		<message id="empty_book_error" value="Book is empty" />
+		<!-- IMPORTANT NOTE: This message must contain characters in the range 0-255 ONLY -->
+		<message id="insert_ms" value="Please insert a Memory Stick Duo" />
+		<message id="internal_error" value="Internal error" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Loading..." />
+		<message id="closing" value="Closing program..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Accept" />
+		<message id="cancel" value="Cancel" />
+		<message id="more_above" value="[More]" /> <!-- As in the sense that there are more above -->
+		<message id="more_below" value="[More]" /> <!-- As in the sense that there are more below -->
+		<message id="go_back" value="&lt; Go back" />
+		<message id="reload_menu" value="Reload menu" />
+		<message id="theme_preview" value="Press cross to select theme or triangle to go back" />
+		<message id="load_last" value="Load last opened comic book" />
+		<message id="load_saved" value="Load saved comic book" />
+		<message id="no_comics" value="Please place comic books in the /comics folder" />
+		<message id="no_themes" value="You have no themes. Please replace the default theme." />
+		<message id="open_dir" value="Open this directory" /> <!-- Or whatever you call folders on a drive -->
+		<!-- Main menu -->
+		<message id="open_book" value="Open comic book..." />
+		<message id="close_book" value="Close comic book" />
+		<message id="next_book" value="Next comic book" />
+		<message id="prev_book" value="Previous comic book" />
+		<message id="jump_page" value="Jump to page..." />
+		<message id="load_bookmark" value="Load bookmark" />
+		<message id="set_bookmark" value="Set to bookmark" />
+		<message id="set_saved" value="Save comic book" />
+		<message id="more_bookmark" value="More bookmark operations..." />
+		<message id="config" value="Configuration..." />
+		<message id="about" value="About" />
+		<message id="quit" value="Quit" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Change resize method to nearest neighbor" />
+		<message id="resize_to_resample" value="Change resize method to resample" />
+		<message id="adjust_clock" value="Adjust clock frequency..." /> <!-- i.e., the processor's clock -->
+		<!-- pan as in panning, or, more accurately, scrolling (of the image on the screen), not the thing you cook with -->
+		<message id="adjust_pan" value="Adjust pan rate..." />
+		<message id="enable_zoom_persist" value="Turn on zoom level persistence" />
+		<message id="disable_zoom_persist" value="Turn off zoom level persistence" />
+		<message id="enable_rotate_persist" value="Turn on rotation persistence" />
+		<message id="disable_rotate_persist" value="Turn off rotation persistence" />
+		<message id="adjust_scroll_skip" value="Adjust menu scroll skip rate..." />
+		<message id="enable_manga_mode" value="Turn on manga mode" />
+		<message id="disable_manga_mode" value="Turn off manga mode" />
+		<message id="enable_bookmark_on_load" value="Jump to bookmark upon loading comic book" />
+		<message id="disable_bookmark_on_load" value="Do not jump to bookmark upon loading comic book" />
+		<message id="set_autozoom" value="Set autozoom mode..." />
+		<message id="set_zoom_box_w" value="Set zoom box width..." />
+		<message id="set_zoom_box_h" value="Set zoom box height..." />
+		<message id="enable_precaching" value="Turn on precaching" />
+		<message id="disable_precaching" value="Turn off precaching" />
+		<message id="enable_singlehanded" value="Turn on single-handed mode" />
+		<message id="disable_singlehanded" value="Turn off single-handed mode" />
+		<message id="enable_analog" value="Turn on analog nub" />
+		<message id="disable_analog" value="Turn off analog nub" />
+		<message id="set_theme" value="Change theme..." />
+		<message id="set_language" value="Change language..." />
+		<message id="save_config" value="Save configuration" />
+		<message id="load_config" value="Load configuration" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Delete bookmark for this comic book" />
+		<message id="delete_all_bookmarks" value="Delete all bookmarks" />
+		<!-- Purge bookmarks deletes all bookmarks that point to comics that no longer exist -->
+		<message id="purge_bookmarks" value="Purge bookmarks" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Fit page to screen width" />
+		<message id="full_view" value="View page at original width" />
+		<message id="twice_width" value="Fit page to twice screen width (good for spreads)" /> <!-- a spread is two pages that are shown as one -->
+		<message id="autodetect" value="Autodetect spread mode" />
+		<!-- Other menus -->
+		<message id="page" value="Page %u: " /> <!-- Mind the trailing whitespace -->
+		<message id="adjust_clock_top" value="Set clock frequency (MHz)" /> <!-- MHz is short for megahertz -->
+		<message id="adjust_pan_top" value="Set pan rate:" />
+		<message id="adjust_scroll_skip_top" value="Set scroll skip:" />
+		<message id="adjust_zoom_box_w_top" value="Set zoom box width:" />
+		<message id="adjust_zoom_box_h_top" value="Set zoom box height:" />
+	</messages>
+</language>

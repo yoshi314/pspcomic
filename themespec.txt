@@ -1,0 +1,101 @@
+PSPComic version 1.0.1 Theme Specification
+========================================
+
+A PSPComic theme consists of one to three different files inside of a directory
+in the comics/.pspcomic/themes folder. If the internal name of a theme is
+"foobar", for instance, the theme would be located at
+comics/.pspcomic/themes/foobar
+
+Every theme must contain a theme.xml file, which describes the theme. It is a
+simple XML 1.0 file. Everything in the file is case-sensitive. The root element
+is named theme, and must contain two attributes: name, which defines the visible
+name of the theme, and version, which describes the version of PSPComic the
+theme is for. The version attribute should be in the format "x.y.z", where x is
+the major version (1), y is the minor version (0), and z is the maintenance
+version. This version number does NOT correspond to the version of the theme.
+
+The theme element should contain at least one of five elements, specifically
+font and background, image and two color elements. For a complete theme, all
+must be specified. If at least one is not specified, the version from the
+default theme is used.
+
+The font element, to be a complete theme, must contain several attributes and
+elements. The attributes it must contain are filename, antialias, size and
+lspacing. The filename attribute specifies the filename of the font to use. It
+must be a TrueType or bitmap font and must be in the theme's directory (not
+a subdirectory), or "builtin", in which case the builtin font is used. The
+antialias attribute sets whether or not the font should be antialiased.
+Antialiasing uses more memory and is slower, but looks better than a
+non-antialiased font. The size attribute specifies the height of the font. It
+must be greater than 0 and is recommended to be less than approximately 50. The
+lspacing attribute specifies the space between the top of one line and the top
+of another line. This must be at least 1. If any of these attributes are
+missing, except for lspacing, the default theme's values are used. Behavior if
+the default theme is missing these values is undefined. If lspacing is absent or
+invalid, then the default spacing of the font is used. The program will
+encounter an error if the font is not found or cannot otherwise be loaded. If
+the value of size is invalid, the default size will be used.
+
+If the filename attribute is specified, then the ranges element can be used.
+The ranges element goes inside of the font element and specifies the Unicode
+ranges that work with the font specified. Inside of the ranges element should be
+one or more range elements, which have two attributes, begin, which is the
+codepoint where the range begins, and end, which is the codepoint where the
+range ends. If the ranges element is missing or empty, the font is expected to
+be ASCII-compatible (range 0-127), but not Latin-1 (range 0-255) compatible.
+
+The font element also contains several color elements. The color element
+contains four attributes, the context attribute, which specifies where the color
+should be used, the red attribute, which specifies, between 0 and 255, how much
+red there should be in the color, the green attribute, which specifies, between
+0 and 255, how much green there should be in the color, and the blue attribute,
+which specifies, between 0 and 255, how much blue there should be in the color.
+The contexts used in the font element are normal, selected, secondary, tertiary,
+batterylow and batterycharging. The normal context color is used for most text.
+The selected context color is used for text that should be visibly selected. The
+secondary context color is used for text that should appear in a color other
+than normal, for instance folders in the the open comic book menu. The tertiary
+color context is used for text that should not be either normal or secondary,
+such as the [More] scrolling text at the top or bottom of a list. The batterylow
+context color is used for displaying the battery life percentage when it is low,
+and the batterycharging context color is used for displaying the battery life
+percentage when the battery is charging. If any of the colors except for the
+normal color are not specified, the normal color is used instead. If the normal
+color is not specified, the default theme's normal color is used.
+
+The second element that the theme element may contain is the background element.
+The background element can have one attribute, filename. The filename must refer
+to a file in the same directory as the theme (not a subdirectory). The filename
+must refer to an image that is either a PNG, JPEG or GIF (note that animated
+GIFs do not work), and the image will be scaled to 480x272 if it is not already.
+
+The background element may contain one color element with the fallback context.
+This is used as the background color in the event that the background cannot be
+sucessfully loaded. It is also the color that is used when the screen is cleared
+for drawing a page that's centered or transparent. If it is not specified, the
+one from the default theme is used.
+
+The theme element may also contain one or more image elements. An image element
+has two attributes: id and filename. The id specifies with which image in the
+theme the file specified is associated. As with the background element, the
+filename attribute must specify a file in the same directory as the theme. As of
+version 1.0, there is only one valid id: image_usb, which sets the USB icon in
+the menu.
+
+Additionally, the theme element may contain color elements. The two valid color
+contexts are zoombox1 and zoombox2, for the two outlines of the zoomboxes.
+zoombox1 specifies the box that is moved by the cursor and zoombox2 specifies
+the box that contains the magnified image.
+
+Please note that all of the elements and attributes specified in this file
+except for the ranges element, the colors other than the primary color and image
+elements, must be used in a theme for it to be a complete theme. Incomplete
+themes may be used, but not as the default theme. Note that the default theme is
+not the one that's loaded upon running the program. Rather, the default theme is
+the one that is loaded if another one has not been saved and if an incomplete
+theme is loaded, pieces of the default theme are loaded. The default theme must
+be present for the program to run properly. If the theme cannot be properly
+loaded, the program will give an error and exit.
+
+If additional attributes or elements are specified inside of the theme element,
+they are ignored and an error is not raised.

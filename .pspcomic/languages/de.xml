@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic German language file for version 1.0
+	By Wiedster
+	This file is public domain
+-->
+<language name="Deutsch" version="1.0.0">
+	<ranges>
+		<range begin="0" end="255" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="kein Speicher mehr" />
+		<message id="sdl_error" value="SDL Error: %s" />
+		<message id="sdl_image_error" value="SDL_image Error: %s" />
+		<message id="sdl_ttf_error" value="SDL_ttf Error: %s" />
+		<message id="open_book_error" value="Fehler beim Öffnen des Buches" />
+		<message id="open_file_error" value="Fehler beim Öffnen der %s Datei" /> <!-- %s is either zip or rar -->
+		<message id="read_file_error" value="Fehler beim Lesen der %s Datei" /> <!-- %s is either zip or rar -->
+		<message id="load_theme_error" value="Fehler beim Laden des Themes" />
+		<message id="load_page_error" value="Seite konnte nicht aus dem Archiv geladen werden." />
+		<message id="load_language_error" value="Fehler beim Laden der Sprache" />
+		<message id="language_too_long_error" value="Die geladene Sprache unterstützt das Theme nicht" />
+		<message id="theme_too_short_error" value="Das geladene Theme unterstützt die Sprache nicht" />
+		<message id="zip_name_too_long_error" value="Dateiname in der Zip Datei zu lang" />
+		<message id="empty_book_error" value="Buch ohne Inhalt" />
+		<message id="insert_ms" value="Bitte einen Memory Stick Duo einsetzen" />
+		<message id="internal_error" value="Interner Fehler" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Lade..." />
+		<message id="closing" value="Programm wird geschlossen..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Annehmen" />
+		<message id="cancel" value="Abbrechen" />
+		<message id="more_above" value="[mehr]" /> <!-- As in the sense that there are more above -->
+		<message id="more_below" value="[mehr]" /> <!-- As in the sense that there are more below -->
+		<message id="go_back" value="&lt; zurück" />
+		<message id="reload_menu" value="Menü neu laden" />
+		<message id="theme_preview" value="Kreuz um ein Theme auszuwählen oder Dreieck zum Abbrechen" />
+		<message id="load_last" value="Letztes geöffnetes Comicbuch laden" />
+		<message id="load_saved" value="Gespeichertes Comicbuch laden" />
+		<message id="no_comics" value="Bitte Comics im /comic Ordner ablegen" />
+		<message id="no_themes" value="Keine eigenen Themes vorhanden. Bitte Standard Theme aussuchen." />
+		<message id="open_dir" value="Ordner öffnen" /> <!-- Or whatever you call folders on a drive -->
+		<!-- Main menu -->
+		<message id="open_book" value="Comicbuch öffnen..." />
+		<message id="close_book" value="Comicbuch schließen" />
+		<message id="next_book" value="Nächstes Comicbuch" />
+		<message id="prev_book" value="Voriges Comicbuch" />
+		<message id="jump_page" value="Zu Seite springen..." />
+		<message id="load_bookmark" value="Lade Lesezeichen" />
+		<message id="set_bookmark" value="Setze Lesezeichen" />
+		<message id="set_saved" value="Speichere Comicbuch" />
+		<message id="more_bookmark" value="Weitere Lesezeichen Aktionen..." />
+		<message id="config" value="Einstellungen..." />
+		<message id="about" value="Über" />
+		<message id="quit" value="Beenden" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Ändere Größenanpassungs Methode auf &quot;nearest neighbor&quot;" />
+		<message id="resize_to_resample" value="Ändere Größenanpassungs Methode zu &quot;resample&quot;" />
+		<message id="adjust_clock" value="Prozessortakt anpassen..." /> <!-- i.e., the processor's clock -->
+		<message id="adjust_pan" value="Schwenk Rate Anpassen..." /> <!-- pan as in panning, not the thing you cook with -->
+		<message id="enable_zoom_persist" value="Schalte Zoom-Stufen-Beständigkeit ein" />
+		<message id="disable_zoom_persist" value="Schalte Zoom-Stufen-Beständigkeit aus" />
+		<message id="enable_rotate_persist" value="Schalte Drehungs-Beständigkeit ein" />
+		<message id="disable_rotate_persist" value="Schalte Drehungs-Beständigkeit aus" />
+		<message id="adjust_scroll_skip" value="Menü Scroll Rate anpassen..." />
+		<message id="enable_manga_mode" value="Schalte Manga Modus ein" />
+		<message id="disable_manga_mode" value="Schalte Manga Modus aus" />
+		<message id="enable_bookmark_on_load" value="Zu Lesenzeichen springen wenn Comicbuch geladen wird" />
+		<message id="disable_bookmark_on_load" value="Nicht zu Lesenzeichen springen wenn Comicbuch geladen wird" />
+		<message id="set_autozoom" value="Autozoom Modus Einstellen..." />
+		<message id="set_zoom_box_w" value="Zoom Ausschnittbreite..." />
+		<message id="set_zoom_box_h" value="Zom Ausschnitthöhe..." />
+		<message id="enable_precaching" value="Schalte Vorausladen ein" />
+		<message id="disable_precaching" value="Schalte Vorausladen aus" />
+		<message id="enable_singlehanded" value="Schalte Einhand Modus ein" />
+		<message id="disable_singlehanded" value="Schalte Einhand Modus aus" />
+		<message id="enable_analog" value="Schalte Analog Knopf ein" />
+		<message id="disable_analog" value="Schalte Analog Knopf aus" />
+		<message id="set_theme" value="Theme wechseln..." />
+		<message id="set_language" value="Sprache wechseln..." />
+		<message id="save_config" value="Speichere Einstellungen" />
+		<message id="load_config" value="Lade Einstellungen" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Lesezeichen für dieses Comicbuch löschen" />
+		<message id="delete_all_bookmarks" value="Lösche alle Lesezeichen" />
+		<!-- Purge bookmarks deletes all bookmarks that point to comics that no longer exist -->
+		<message id="purge_bookmarks" value="Lesezeichen bereinigen" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Seite an Bildschirmbreite anpassen" />
+		<message id="full_view" value="Seite in Originalbreite anzeigen" />
+		<message id="twice_width" value="Seite auf doppelte Bildschirmbreite anpassen (für Doppelseiten)" /> <!-- a spread is two pages that are shown as one -->
+		<message id="autodetect" value="Seitenanpassung automatisch erkennen" />
+		<!-- Other menus -->
+		<message id="page" value="Seite %u: " /> <!-- Mind the trailing whitespace -->
+		<message id="adjust_clock_top" value="Setze Prozessor Frequenz (MHz)" /> <!-- MHz is short for megahertz -->
+		<message id="adjust_pan_top" value="Setze Schwenk Rate:" />
+		<message id="adjust_scroll_skip_top" value="Setze Scrollgeschwindigkeit:" />
+		<message id="adjust_zoom_box_w_top" value="Setze Zoom Auschnittbreite:" />
+		<message id="adjust_zoom_box_h_top" value="Setze Zoom Ausschnitthöhe:" />
+	</messages>
+</language>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	PSPComic Polish language file for version 1.0
+	By MSpytkowski
+	This file is public domain
+-->
+<language name="Polski" version="1.0.0">
+	<ranges>
+		<range begin="0" end="380" />
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Za mało pamięci" />
+		<message id="sdl_error" value="Błąd SDL: %s" />
+		<message id="sdl_image_error" value="Błąd SDL_image: %s" />
+		<message id="sdl_ttf_error" value="Błąd SDL_ttf: %s" />
+		<message id="open_book_error" value="Błąd podczas otwierania komiksu" />
+		<message id="open_file_error" value="Błąd podczas otwierania pliku %s" />
+		<message id="read_file_error" value="Błąd podczas czytania pliku %s" />
+		<message id="load_theme_error" value="Błąd podczas wczytywania szaty" />
+		<message id="load_page_error" value="Błąd podczas czytania strony z archiwum" />
+		<message id="load_language_error" value="Błąd podczas wczytywania języka" />
+		<message id="language_too_long_error" value="Wczytany język nie obsługuje tej szaty" />
+		<message id="theme_too_short_error" value="Wczytana szata nie obsługuje tego języka" />
+		<message id="zip_name_too_long_error" value="Nazwa pliku w archiwum jest zbyt długa" />
+		<message id="empty_book_error" value="Komiks jest pusty" />
+		<message id="internal_error" value="Błąd wewnętrzny" />
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Trwa ładowanie..." />
+		<message id="closing" value="Trwa zamykanie programu..." />
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="OK" />
+		<message id="cancel" value="Anuluj" />
+		<message id="more_above" value="[Więcej]" />
+		<message id="more_below" value="[Więcej]" />
+		<message id="go_back" value="Wróć" />
+		<message id="reload_menu" value="Załaduj ponownie" />
+		<message id="theme_preview" value="Naciśnij krzyżyk aby załadować szatę albo trójkąt aby powrócić" />
+		<message id="load_last" value="Załaduj ostatnio otwarty komiks" />
+		<message id="load_saved" value="Załaduj zapisany komiks" />
+		<message id="no_comics" value="Przenieś plik do folderu /comics" />
+		<message id="no_themes" value="Żadna szata nie jest dostępna, proszę zastąpić domyślną szatę" />
+		<message id="open_dir" value="Otwórz folder" />
+		<!-- Main menu -->
+		<message id="open_book" value="Otwórz komiks" />
+		<message id="close_book" value="Zamknij komiks" />
+		<message id="next_book" value="Następny komiks" />
+		<message id="prev_book" value="Poprzedni komiks" />
+		<message id="jump_page" value="Przejdź do strony" />
+		<message id="load_bookmark" value="Przejdź do zakładki" />
+		<message id="set_bookmark" value="Ustaw zakładkę" />
+		<message id="set_saved" value="Zapisz komiks" />
+		<message id="more_bookmark" value="Opcje zakładek" />
+		<message id="config" value="Opcje" />
+		<message id="about" value="O programie" />
+		<message id="quit" value="Wyjdź" />
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Skalowanie metodą najbliższych sąsiadów" />
+		<message id="resize_to_resample" value="Skalowanie metodą re-samplowania" />
+		<message id="adjust_clock" value="Zmień taktowania zegara" />
+		<message id="adjust_pan" value="Zmień szybkość przewijania" />
+		<message id="enable_zoom_persist" value="Włącz stałe przybliżenie" />
+		<message id="disable_zoom_persist" value="Wyłącz stałe przybliżenie" />
+		<message id="enable_rotate_persist" value="Włącz stałą orientacje" />
+		<message id="disable_rotate_persist" value="Wyłącz stałą orientacje" />
+		<message id="adjust_scroll_skip" value="Zmień szybkość przeskakiwania menu" />
+		<message id="enable_manga_mode" value="Włącz tryb mangi" />
+		<message id="disable_manga_mode" value="Wyłącz tryb mangi" />
+		<message id="enable_bookmark_on_load" value="Przeskakuj do zakładki po załadowaniu" />
+		<message id="disable_bookmark_on_load" value="Nie przeskakuj do zakładki po załadowaniu" />
+		<message id="set_autozoom" value="Ustaw automatyczny zoom" />
+		<message id="set_zoom_box_w" value="Ustaw szerokość lupy" />
+		<message id="set_zoom_box_h" value="Ustaw wysokość lupy" />
+		<message id="enable_precaching" value="Włącz pre-cachowanie" />
+		<message id="disable_precaching" value="Wyłącz pre-cachowanie" />
+		<message id="enable_singlehanded" value="Włącz tryb jednoręczny" />
+		<message id="disable_singlehanded" value="Wyłącz tryb jednoręczny" />
+		<message id="enable_analog" value="Włącz gałkę analogową" />
+		<message id="disable_analog" value="Wyłącz gałkę analogową" />
+		<message id="set_theme" value="Zmień temat" />
+		<message id="set_language" value="Zmień język" />
+		<message id="save_config" value="Wczytaj ustawienia" />
+		<message id="load_config" value="Zapisz ustawienia" />
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Usuń zakładkę z tego komiksu" />
+		<message id="delete_all_bookmarks" value="Usuń wszystkie zakładki" />
+		<message id="purge_bookmarks" value="Posprzątaj zakładki" />
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Dopasuj szerokość do monitora" />
+		<message id="full_view" value="Przywróć pierwotną szerokość" />
+		<message id="twice_width" value="Dopasuj szerokość do podwojonej monitora" />
+		<message id="autodetect" value="Samodzielnie wykryj metode dopasowania" />
+		<!-- Other menus -->
+		<message id="page" value="Strona %u: " />
+		<message id="adjust_clock_top" value="Ustaw taktowanie zegara (MHz)" />
+		<message id="adjust_pan_top" value="Ustaw prędkość przewijania:" />
+		<message id="adjust_scroll_skip_top" value="Ustaw przeskok przewijania:" />
+		<message id="adjust_zoom_box_w_top" value="Ustaw szerokość lupy:" />
+		<message id="adjust_zoom_box_h_top" value="Ustaw wysokość lupy:" />
+	</messages>
+</language>

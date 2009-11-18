@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Russian" version="1.0.0">
+	<ranges>
+		<range begin="1024" end="1279"/>
+	</ranges>
+	<messages>
+		<!-- Begin errors -->
+		<message id="out_of_memory" value="Недостаточно памяти"/>
+		<message id="sdl_error" value="Ошибка SDL: %s"/>
+		<message id="sdl_image_error" value="Ошибка SDL_image: %s"/>
+		<message id="sdl_ttf_error" value="Ошибка SDL_ttf: %s"/>
+		<message id="open_book_error" value="Ошибка при открытии книги"/>
+		<message id="open_file_error" value="Ошибка при открытии файла %s"/>
+		<message id="read_file_error" value="Ошибка при чтении файла %s"/>
+		<message id="load_theme_error" value="Ошибка при загрузке темы"/>
+		<message id="load_page_error" value="Не удалось загрузить страницу из архива. Bailing..."/>
+		<message id="load_language_error" value="Ошибка при загрузке языкового файла"/>
+		<message id="language_too_long_error" value="Данный язык не поддерживается этой темой"/>
+		<message id="theme_too_short_error" value="Данная тема не поддерживает загруженый язык"/>
+		<message id="zip_name_too_long_error" value="Слишком длинное имя файла"/>
+		<message id="empty_book_error" value="Книга пуста"/>
+		<message id="internal_error" value="Внутренняя ошибка"/>
+		<!-- End errors -->
+		<!-- Begin status messages -->
+		<message id="loading" value="Загрузка..."/>
+		<message id="closing" value="Закрытие программы..."/>
+		<!-- End status messages -->
+		<!-- Begin menu messages -->
+		<message id="accept" value="Принять"/>
+		<message id="cancel" value="Отмена"/>
+		<message id="more_above" value="[Еще]"/> <!-- As in the sense that there are more above -->
+		<message id="more_below" value="[Еще]"/> <!-- As in the sense that there are more below -->
+		<message id="go_back" value="&lt; Назад"/>
+		<message id="reload_menu" value="Перезагрузить меню"/>
+		<message id="theme_preview" value="Нажмите Х для просмотра темы или треугольник, чтобы вернуться"/>
+		<message id="load_last" value="Последняя открытая книга"/>
+		<message id="load_saved" value="Загрузить сохраненую книгу"/>
+		<message id="no_comics" value="Пожалуйста, положите архив с комиксом в папку /comics"/>
+		<message id="no_themes" value="Ни одной темы не найдено. Верните, пожалуйста, тему по умолчанию."/>
+		<message id="open_dir" value="Открыть папку"/> <!-- Or whatever you call folders on a drive -->
+		<!-- Main menu -->
+		<message id="open_book" value="Открыть архив с комиксом..."/>
+		<message id="close_book" value="Закрыть комикс"/>
+		<message id="next_book" value="Следующий комикс"/>
+		<message id="prev_book" value="Предыдущий комикс"/>
+		<message id="jump_page" value="Перейти к странице..."/>
+		<message id="load_bookmark" value="Загрузить закладку"/>
+		<message id="set_bookmark" value="Поставить закладку"/>
+		<message id="set_saved" value="Сохранить архив с комиксом"/>
+		<message id="more_bookmark" value="Операции с закладками..."/>
+		<message id="config" value="Настройка..."/>
+		<message id="about" value="О программе"/>
+		<message id="quit" value="Выход"/>
+		<!-- Config menu -->
+		<message id="resize_to_nn" value="Сменить метод изменения размера на nearest neighbor"/>
+		<message id="resize_to_resample" value="Сменить метод изменения размера на resample"/>
+		<message id="adjust_clock" value="Изменить частоту процессора..."/> <!-- i.e., the processor's clock -->
+		<!-- pan as in panning, or, more accurately, scrolling (of the image on the screen), not the thing you cook with -->
+		<message id="adjust_pan" value="Изменить параметры прокрутки..."/>
+		<message id="enable_zoom_persist" value="Отображать уровень приближения"/>
+		<message id="disable_zoom_persist" value="Не отображать уровень приближения"/>
+		<message id="enable_rotate_persist" value="Отображать значения поворота"/>
+		<message id="disable_rotate_persist" value="Не отображать значения поворота"/>
+		<message id="adjust_scroll_skip" value="Изменить величину пропуска при прокрутке..."/>
+		<message id="enable_manga_mode" value="Включить режим манги"/>
+		<message id="disable_manga_mode" value="Выключить режим манги"/>
+		<message id="enable_bookmark_on_load" value="Переходить на закладку при открытие комикса"/>
+		<message id="disable_bookmark_on_load" value="Не переходить на закладку при открытие комикса"/>
+		<message id="set_autozoom" value="Включить автоприближение..."/>
+		<message id="set_zoom_box_w" value="Ширина прилижаемой области..."/>
+		<message id="set_zoom_box_h" value="Высота приблиаемой области..."/>
+		<message id="enable_precaching" value="Включить предварительное кэширование"/>
+		<message id="disable_precaching" value="Выключить предварительное кэширование"/>
+		<message id="enable_singlehanded" value="Включить режим управления одной рукой"/>
+		<message id="disable_singlehanded" value="Выключить режим управления одной рукой"/>
+		<message id="enable_analog" value="Включить аналог"/>
+		<message id="disable_analog" value="Выключить аналог"/>
+		<message id="set_theme" value="Сменить тему..."/>
+		<message id="set_language" value="Сменить язык..."/>
+		<message id="save_config" value="Сохранить настройки"/>
+		<message id="load_config" value="Загрузить настройки"/>
+		<!-- Bookmark menu -->
+		<message id="delete_bookmarks" value="Удалить закладки из этого комикса"/>
+		<message id="delete_all_bookmarks" value="Удалить все закладки"/>
+		<!-- Purge bookmarks deletes all bookmarks that point to comics that no longer exist -->
+		<message id="purge_bookmarks" value="Удалить закладки на несуществующие архивы"/>
+		<!-- Autozoom mode menu -->
+		<message id="full_width" value="Подогнать страницу по ширине экрана"/>
+		<message id="full_view" value="Просмотр в оригинальном размере"/>
+		<message id="twice_width" value="Подогнать страницу по ширине двух экранов"/> <!-- a spread is two pages that are shown as one -->
+		<message id="autodetect" value="Автоматически находить сдвоенные страницы"/>
+		<!-- Other menus -->
+		<message id="page" value="Страница %u: "/> <!-- Mind the trailing whitespace -->
+		<message id="adjust_clock_top" value="Частота процессора (MHz)"/> <!-- MHz is short for megahertz -->
+		<message id="adjust_pan_top" value="Перемещать на"/>
+		<message id="adjust_scroll_skip_top" value="Пропускать по"/>
+		<message id="adjust_zoom_box_w_top" value="Ширина зума:"/>
+		<message id="adjust_zoom_box_h_top" value="Высота зума:"/>
+	</messages>
+</language>

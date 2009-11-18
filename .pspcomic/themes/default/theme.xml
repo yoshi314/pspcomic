@@ -1,0 +1,27 @@
+<!--
+	PSPComic Default Theme for version 1.0.1
+	By Jeffrey P. (Archaemic) and Christophe Rudyj (Kip)
+	This file is public domain
+	bg.png is licensed under the GPL
+-->
+<?xml version="1.0"?>
+<theme name="Default theme" version="1.0.1">
+	<font filename="builtin" antialias="yes" size="13" lspacing="14">
+		<ranges>
+			<range begin="0" end="255" />
+		</ranges>
+		<color context="normal" red="255" green="255" blue="255" />
+		<color context="selected" red="200" green="200" blue="255" />
+		<color context="batterylow" red="255" green="50" blue="100" />
+		<color context="batterycharging" red="255" green="255" blue="50" />
+		<color context="secondary" red="150" green="255" blue="100" />
+		<color context="tertiary" red="100" green="100" blue="255" />
+		<color context="error" red="255" green="200" blue="100" />
+	</font>
+	<background filename="bg.png">
+		<color context="fallback" red="50" green="50" blue="50" />
+	</background>
+	<image id="image_usb" filename="usb.png" />
+	<color context="zoombox1" red="95" green="95" blue="255" alpha="191"/>
+	<color context="zoombox2" red="191" green="63" blue="63" alpha="127"/>
+</theme>
