@@ -30,8 +30,11 @@ tinyxml:
 windows:
 	WINDOWS=1 make -f Makefile.generic
 clean:
-	rm -fv *.o zip/*.o tinyxml/*.o PARAM.SFO EBOOT.PBP pspcomic.prx
-	rm -rfv 3.xx 150 
+	rm -fv *.o zip/*.o tinyxml/*.o rar/*.o PARAM.SFO EBOOT.PBP pspcomic.prx
+	rm -rfv 3.xx 1.50 
+distclean:
+	make clean
+	rm -v *.a
 unix:
 	make -f Makefile.generic
 docs:
