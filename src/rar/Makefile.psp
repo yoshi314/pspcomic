@@ -5,7 +5,7 @@
 # Linux using GCC
 CXX=psp-g++
 DEFINES=-D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE
-CXXFLAGS=-O0 -g3 -G0 -fno-rtti -Wno-deprecated \
+CXXFLAGS=-O0 -G0 -fno-rtti -Wno-deprecated \
 	-I$(shell psp-config --psp-prefix)/sdk/include $(DEFINES)
 AR=psp-ar
 
