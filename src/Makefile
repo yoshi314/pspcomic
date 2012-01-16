@@ -21,11 +21,11 @@ psptinyxml:
 150:
 	mkdir -p 1.50
 	make -f Makefile.psp
-rar:
+librar:
 	make -C rar -f Makefile.generic lib
 	mv -f rar/libunrar.a .
-tinyxml:
-	make -C tinyxml -f Makefile.generic lib
+libxml:
+	make -C tinyxml -f Makefile.generic 
 	mv -f tinyxml/libtinyxml.a .
 windows:
 	WINDOWS=1 make -f Makefile.generic
