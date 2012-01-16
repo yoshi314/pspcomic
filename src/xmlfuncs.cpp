@@ -814,7 +814,7 @@ char** get_language_messages(const char *lang) {
 				if(!temp) break;	//Notice! If PSPComic runs out of memory
 									//here, you will get an incomplete language!
 				//MAKE SURE THERE ARE THE RIGHT ESCAPE CHARACTERS FOR *PRINTFS!
-				char *percent_in_en = strchr(en_messages[i],'%');
+				const char *percent_in_en = strchr(en_messages[i],'%');
 				if(percent_in_en) {
 					bool good = true;
 					for(char *percent_in_for = strchr(temp,'%');
