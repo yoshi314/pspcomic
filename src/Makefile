@@ -35,7 +35,10 @@ clean:
 distclean:
 	make clean
 	rm -v *.a
-unix:
+unix_app:
 	make -f Makefile.generic
+
+unix: librar libxml unix_app
+
 docs:
 	doxygen pspcomic.doxy
