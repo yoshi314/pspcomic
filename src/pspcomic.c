@@ -110,7 +110,11 @@ void init_video(Uint16 w, Uint16 h) {
 	static char initd = 0;
 	if(initd) return;
 	SDL_ShowCursor(SDL_DISABLE);
+	#ifdef PSP
 	SDL_Surface *screen = SDL_SetVideoMode(w,h,0,SDL_HWSURFACE|SDL_DOUBLEBUF);
+	#else
+	SDL_Surface *screen = SDL_SetVideoMode(w,h,0,SDL_HWSURFACE|SDL_DOUBLEBUF|SDL_RESIZABLE);
+	#endif
 	if(!screen) {
 		sdl_error();
 	}
@@ -3314,7 +3318,7 @@ int main(int argc, char* argv[]) {
 	#ifdef PSP
 	init_video(480,272);
 	#else
-	init_video(640,480);
+	init_video(0,0);
 	#endif 
 
 	init_theme_system();
