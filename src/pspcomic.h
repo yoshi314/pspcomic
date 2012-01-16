@@ -111,6 +111,7 @@ extern const unsigned char default_font[];
 #include <pspusb.h>
 #include <pspusbstor.h>
 #endif /* USE_USB */
+
 ///The root directory
 #define root_dir "ms0:"
 #elif defined(_WIN32) /* PSP */
@@ -120,10 +121,18 @@ extern const unsigned char default_font[];
 ///The root directory (only a variable in Unix!)
 extern char *root_dir;
 #endif /* PSP */
+
 ///The directory for comics relative to the root directory
 #define cb_dir "/comics/"
+
+#ifdef PSP
 ///The directory for PSPComic's data
 #define data_dir cb_dir ".pspcomic/"
+#else 
+#define data_dir "/.pspcomic/"
+#endif /* PSP */
+
+
 ///The filename of the config file
 #define config_file data_dir "config.xml"
 ///The filename for the bookmarks file
