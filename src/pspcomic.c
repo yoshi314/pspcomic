@@ -3310,7 +3310,13 @@ int main(int argc, char* argv[]) {
 	#if !defined(PSP) && !defined(_WIN32)
 	root_dir = getenv("HOME");
 	#endif
+
+	#ifdef PSP
 	init_video(480,272);
+	#else
+	init_video(640,480);
+	#endif 
+
 	init_theme_system();
 	char *real_cb_dir = get_full_path(cb_dir);
 	if(!real_cb_dir) {
