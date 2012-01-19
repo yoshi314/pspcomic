@@ -119,13 +119,22 @@ void init_video(Uint16 w, Uint16 h) {
 		sdl_error();
 	}
 }
+
+void reinit_video(Uint16 w, Uint16 h) {
+	device scr_acc = access_device(access_screen);
+	scr_acc.screen = SDL_SetVideoMode(w,h,0,SDL_HWSURFACE|SDL_DOUBLEBUF|SDL_RESIZABLE);
+	flip_screen();
+}
+
 device access_device(int device_code) {
+	
 	static SDL_Surface *screen = NULL;
 	static SDL_Joystick *joy = NULL;
 	device ret;
 	ret.type = -1;
 	ret.screen = NULL;
 	ret.joystick = NULL;
+
 	switch(device_code) {
 		case access_screen:
 			if(!screen) screen = SDL_GetVideoSurface();
@@ -273,16 +282,19 @@ char show_image2(SDL_Surface *surf, SDL_Rect *src, SDL_Rect *dst, char rotation,
 	return 1;
 }
 event show_book(char *dir, char *book_name) {
+	
 	reset_text_pos();
 	clear_screen();
 	show_image(get_background(),0,0,0);
 	say_centered(get_message(mesg_loading));
 	flip_screen();
 	comic_book book = open_comic_book(dir,book_name);
+
 	if(book.num_pages == 0) {
 		error_message(get_message(mesg_open_book_error));
 		return init_event(error_ev);
 	}
+
 	char *bookcatted = malloc(sizeof(char)*(strlen(dir)+strlen(book_name)+1));
 	if(!bookcatted) return init_event(error_ev);
 	strcpy(bookcatted, dir);
@@ -563,6 +575,13 @@ int handle_input(char wait) {
 			case SDL_USEREVENT: {
 				return ev.user.code;
 			}
+			
+			
+			//resize app window
+			case SDL_VIDEORESIZE: {
+				reinit_video(ev.resize.w, ev.resize.h);
+			}
+			
 			#ifndef PSP
 			case SDL_QUIT: return quit_command;
 			case SDL_KEYDOWN: case SDL_KEYUP: {
