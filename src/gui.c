@@ -189,12 +189,14 @@ void unload_theme() {
 }
 
 #ifndef DOXYGEN
+//this causes warnings when more than 2 parameters are given
 __attribute__((format(printf,1,2)))
 #endif
 void error_message(const char *message, ...) {
 	va_list args;
 	char buffer[1024];
 	va_start(args,message);
+
 	if(theme_loaded) {
 		int result = vsnprintf(buffer,1024,message,args);
 		if(result == 1024) {

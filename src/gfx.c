@@ -202,6 +202,7 @@ SDL_Surface* rotozoom(SDL_Surface *old, SDL_Rect *clip, Uint16 newW, Uint16 newH
 	int current_resize_method = *access_int_global(access_resize);
 	scale_up_cpu();
 	if((newW/old->w >= 2) && (newH/old->h >= 2)) current_resize_method = resize_nn;
+	
 	SDL_Surface *new_surf = SDL_CreateRGBSurface(
 		SDL_SWSURFACE,
 		(rotation % 2)?newH:newW, (rotation % 2)?newW:newH,
@@ -411,7 +412,9 @@ SDL_Surface* rotozoom(SDL_Surface *old, SDL_Rect *clip, Uint16 newW, Uint16 newH
 			} break;
 		}
 	}
-	if(old) SDL_UnlockSurface(old);
+	if(old) 
+		SDL_UnlockSurface(old);
+		
 	SDL_UnlockSurface(new_surf);
 	scale_down_cpu();
 	return new_surf;

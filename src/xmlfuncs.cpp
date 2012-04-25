@@ -129,6 +129,18 @@ char save_config() {
 	item->SetAttribute("id","language");
 	item->SetAttribute("value",get_loaded_language_name());
 	root->LinkEndChild(item);
+	
+	item = new TiXmlElement("item");
+	if(!item) return xml_er_out_of_memory;
+	item->SetAttribute("id","resx");
+	item->SetAttribute("value",*access_int_global(access_current_resx));
+	root->LinkEndChild(item);
+	
+	item = new TiXmlElement("item");
+	if(!item) return xml_er_out_of_memory;
+	item->SetAttribute("id","resy");
+	item->SetAttribute("value",*access_int_global(access_current_resy));
+	root->LinkEndChild(item);
 
 	confile.LinkEndChild(root);
 	char *filename = get_full_path(config_file);
@@ -224,8 +236,28 @@ char load_config() {
 			if(load_theme(theme)) theme_loaded = 1;
 		} else if(!strcmp(id,"language")) {
 			const char *lang = item->Attribute("value");
-			if(!lang) return xml_er_malformed;
+			if(!lang) 
+				return xml_er_malformed;
 			load_language(lang);
+		} else if(!strcmp(id,"resx")) {
+			int val = 0;
+			const SDL_VideoInfo* videoinfo = SDL_GetVideoInfo();
+			if (
+				item->Attribute("value",&val) && 
+					(val <= videoinfo->current_w) && (val >= 0)
+				)
+				*access_int_global(access_current_resx) = val;
+			fprintf(stderr,"loaded resolution x : %i\n",val);
+		} else if(!strcmp(id,"resy")) {
+			int val = 0;
+			const SDL_VideoInfo* videoinfo = SDL_GetVideoInfo();
+			if (
+				item->Attribute("value",&val) && 
+					(val <= videoinfo->current_h) && (val >= 0)
+				)
+				*access_int_global(access_current_resy) = val;
+			fprintf(stderr,"loaded resolution y : %i\n",val);
+				
 		}
 	}
 	if(!theme_loaded) return (load_theme("default")?0:xml_er_subroutine_fail);

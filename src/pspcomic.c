@@ -104,12 +104,13 @@ static void _atexit() {
 
 inline void sdl_error() {
 	char *e = SDL_GetError();
-	if(strlen(e)) error_message(get_message(mesg_sdl_error), e);
+	if(strlen(e)) 
+		error_message("%s",get_message(mesg_sdl_error), e);
 }
 void init_video(Uint16 w, Uint16 h) {
 	static char initd = 0;
 	if(initd) return;
-	SDL_ShowCursor(SDL_DISABLE);
+		SDL_ShowCursor(SDL_DISABLE);
 	#ifdef PSP
 	SDL_Surface *screen = SDL_SetVideoMode(w,h,0,SDL_HWSURFACE|SDL_DOUBLEBUF);
 	#else
@@ -118,10 +119,16 @@ void init_video(Uint16 w, Uint16 h) {
 	if(!screen) {
 		sdl_error();
 	}
+	fprintf(stderr,"init video %i %i\n",w,h);
 }
 
 void reinit_video(Uint16 w, Uint16 h) {
 	device scr_acc = access_device(access_screen);
+	
+	//store changed resolution in variables
+	*access_int_global(access_current_resx)=w;
+	*access_int_global(access_current_resy)=h;
+	
 	scr_acc.screen = SDL_SetVideoMode(w,h,0,SDL_HWSURFACE|SDL_DOUBLEBUF|SDL_RESIZABLE);
 	flip_screen();
 }
@@ -152,6 +159,7 @@ device access_device(int device_code) {
 	}
 	return ret;
 }
+
 int* access_int_global(int global_code) {
 	//The l is for local (I guess...)
 	static int 
@@ -168,7 +176,9 @@ int* access_int_global(int global_code) {
 		l_autozoom_mode = full_width,
 		l_singlehanded = 0,
 		l_analog_disabled = 0,
-		l_dynamic_cpu = 0;
+		l_dynamic_cpu = 0,
+		l_current_resx = 0,
+		l_current_resy = 0;
 	switch(global_code) {
 		case access_resize: return &l_resize_method;
 		case access_pan_rate: return &l_pan_rate;
@@ -184,17 +194,23 @@ int* access_int_global(int global_code) {
 		case access_singlehanded: return &l_singlehanded;
 		case access_analog_disabled: return &l_analog_disabled;
 		case access_dynamic_cpu: return &l_dynamic_cpu;
+		case access_current_resx: return &l_current_resx;
+		case access_current_resy: return &l_current_resy;
 	}
 	return NULL;
 }
+
 int set_clock(int new_clock) {
 	#ifdef PSP
-	if((new_clock > 333) || (new_clock < 20)) return 0;
+	if((new_clock > 333) || (new_clock < 20)) 
+		return 0;
+		
 	return scePowerSetClockFrequency(new_clock, new_clock, new_clock/2);
 	#else
 	return 0;
 	#endif
 }
+
 static int init_zoom_box(void *zbi) {
 	//Could be done better with timers, but I didn't know about those when I
 	//wrote this. Live and learn.
@@ -209,6 +225,7 @@ static int init_zoom_box(void *zbi) {
 	zbid->zoom_box_is_active = 1;
 	return 1;
 }
+
 void flip_screen() {
 	device scr_acc = access_device(access_screen);
 	SDL_Flip(scr_acc.screen);
@@ -244,6 +261,7 @@ char show_image(SDL_Surface *surf, Uint16 offsetX, Uint16 offsetY, char flip) {
 		return 0;
 	}
 }
+
 char show_image2(SDL_Surface *surf, SDL_Rect *src, SDL_Rect *dst, char rotation, char alpha, char flip) {
 	device scr_acc = access_device(access_screen);
 	SDL_Surface *screen = scr_acc.screen;
@@ -281,6 +299,7 @@ char show_image2(SDL_Surface *surf, SDL_Rect *src, SDL_Rect *dst, char rotation,
 	if(buffer2 != surf) SDL_FreeSurface(buffer2);
 	return 1;
 }
+
 event show_book(char *dir, char *book_name) {
 	
 	reset_text_pos();
@@ -291,7 +310,7 @@ event show_book(char *dir, char *book_name) {
 	comic_book book = open_comic_book(dir,book_name);
 
 	if(book.num_pages == 0) {
-		error_message(get_message(mesg_open_book_error));
+		error_message("%s",get_message(mesg_open_book_error));
 		return init_event(error_ev);
 	}
 
@@ -309,11 +328,15 @@ event show_book(char *dir, char *book_name) {
 	SDL_Surface *page_img;
 	precache_info pci = {NULL,0,0,&book};
 	SDL_Thread *precacher;
-	while(!(operation.command & (quit_command|close_book|aux_command|error_ev)) ||
-			((operation.command == aux_command) && (operation.int_data != open_book))) {
-		if(!*access_int_global(access_rotate_persist)) protation = 0;
+	while (! (operation.command & (quit_command|close_book|aux_command|error_ev)) ||
+			 ((operation.command == aux_command) && (operation.int_data != open_book)) ) {
+				
+		if(!*access_int_global(access_rotate_persist)) 
+			protation = 0;
+		
 		if(!*access_int_global(access_zoom_persist))
 			pscale_ratio = (*access_int_global(access_autozoom_mode) == full_view?1.0f:0.0f);
+			
 		if((pci.page == book.current_page) && pci.new_page && (pci.loaded == 2)) {
 			page_img = pci.new_page;
 		} else {
@@ -334,13 +357,13 @@ event show_book(char *dir, char *book_name) {
 					close_comic_book(book);
 					book = open_comic_book(dir,book_name);
 					if(book.num_pages == 0) {
-						error_message(get_message(mesg_open_book_error));
+						error_message("%s",get_message(mesg_open_book_error));
 						return init_event(error_ev);
 					}
 					book.current_page = page;
 					block = extract_file(&book,book.current_page,&size);
 					if(block == NULL) {
-						error_message(get_message(mesg_load_page_error));
+						error_message("%s",get_message(mesg_load_page_error));
 						return init_event(error_ev);
 					}
 				}
@@ -355,14 +378,17 @@ event show_book(char *dir, char *book_name) {
 		}
 		pci.loaded = 0;
 		pci.page = book.current_page + 1;
-		if(*access_int_global(access_precaching) && (pci.page < book.num_pages)) precacher = SDL_CreateThread(cache_page,&pci);
+		if(*access_int_global(access_precaching) && (pci.page < book.num_pages)) 
+			precacher = SDL_CreateThread(cache_page,&pci);
+			
 		if(!page_img) {
-			error_message(get_message(mesg_sdl_image_error),IMG_GetError());
+			error_message("%s",get_message(mesg_sdl_image_error),IMG_GetError());
 			operation.command = error_ev;
 		} else {
 			operation = show_page(page_img,&book,&protation,&pscale_ratio);
 			SDL_FreeSurface(page_img);
 		}
+		
 		if(operation.command == error_ev) {
 			event op2 = init_event(no_event);
 			while(op2.command == no_event) {
@@ -370,14 +396,14 @@ event show_book(char *dir, char *book_name) {
 				if(op2.command == (open_menu|event_end)) {
 					free_event(op2);
 					op2 = show_menu(&book);
-					error_message(get_message(mesg_sdl_image_error),IMG_GetError());
+					error_message("%s",get_message(mesg_sdl_image_error),IMG_GetError());
 				}
 				switch(op2.command) {
 					case quit_command: case next_page|event_end: case prev_page|event_end:
 					case jump_page: case close_book: case aux_command:
 						if((op2.command != aux_command) || (op2.int_data == open_book)) break;
 					case redraw_ev:
-						error_message(get_message(mesg_sdl_image_error),IMG_GetError());
+						error_message("%s",get_message(mesg_sdl_image_error),IMG_GetError());
 					default: op2.command = no_event;
 				}
 			}
@@ -398,6 +424,7 @@ event show_book(char *dir, char *book_name) {
 	close_comic_book(book);
 	return operation;
 }
+
 int cache_page(void *pci) {
 	#ifdef PSP
 	SceKernelThreadInfo info;
@@ -439,6 +466,7 @@ int cache_page(void *pci) {
 	pcis->loaded = 2;
 	return 1;
 }
+
 void draw_zoom_box(SDL_Surface *page_img, float scale_ratio, Uint8 rotation, Sint32 x, Sint32 y, Uint16 offsetX, Uint16 offsetY, Uint8 zoom_level) {
 	device scr_acc = access_device(access_screen);
 	SDL_Surface *screen = scr_acc.screen;
@@ -580,6 +608,7 @@ int handle_input(char wait) {
 			//resize app window
 			case SDL_VIDEORESIZE: {
 				reinit_video(ev.resize.w, ev.resize.h);
+				fprintf(stderr,"reinit video %i %i\n", ev.resize.w, ev.resize.h);
 			}
 			
 			#ifndef PSP
@@ -616,28 +645,34 @@ int handle_input(char wait) {
 }
 event show_page(SDL_Surface *page_img, comic_book* book, Uint8 *rotation, float *scale_ratio) {
 	reset_text_pos();
-	if(!page_img) return init_event(error_ev);
+	if(!page_img) 
+		return init_event(error_ev);
+		
 	device acc = access_device(access_screen);
 	SDL_Surface *screen = acc.screen;
 	acc = access_device(access_joystick);
 	SDL_Joystick *joy = acc.joystick;
 	int quit = 0, poll_command, autozoom_mode;
+	
 	Uint32 pan_amount = *access_int_global(access_pan_rate);
 	Uint16 scale_width;
+	
 	if(*scale_ratio) {
-		if(*scale_ratio == 1) autozoom_mode = full_view;
-		else autozoom_mode = custom_zoom;
+		if(*scale_ratio == 1) 
+			autozoom_mode = full_view;
+		else 
+			autozoom_mode = custom_zoom;
 		//scale_width = (*rotation & 1?(Uint16)page_img->h:(Uint16)page_img->w)**scale_ratio;
 		scale_width = ((Uint16)page_img->w)**scale_ratio;
 	} else {
 		autozoom_mode = *access_int_global(access_autozoom_mode);
 		switch(autozoom_mode) {
-			case full_width: scale_width = screen->w; break;
-			case twice_width: scale_width = screen->w*2; break;
+			case full_width: 	scale_width = screen->w; break;
+			case twice_width: 	scale_width = screen->w*2; break;
 			case autodetect_zoom:
 				if(!(*rotation & 1) && (page_img->w > page_img->h))
 					scale_width = screen->w*2;
-				else if((*rotation & 1) && (page_img->w < page_img->h))
+				else if ((*rotation & 1) && (page_img->w < page_img->h))
 					scale_width = screen->w*2;
 				else scale_width = screen->w;
 			break;
@@ -661,6 +696,7 @@ event show_page(SDL_Surface *page_img, comic_book* book, Uint8 *rotation, float 
 		place_text(page_num, screen->w - textW, screen->h - textH,0x000000);
 		place_text(page_num, screen->w - textW-1, screen->h - textH-1,0xFFFFFF);
 	}
+	
 	flip_screen();
 	reset_text_pos();
 	char wait_for_input = 1;
@@ -1123,16 +1159,18 @@ comic_book open_comic_book(char *dir, char *filename) {
 	book.type = invalid_comic_type;
 	book.localname = sjis_to_utf8(filename);
 	if(!book.localname) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return book;
 	}
+	
 	book.filename = malloc(sizeof(char)*(strlen(dir)+strlen(filename)+1));
 	if(!book.filename) {
 		free(book.localname);
 		book.localname = NULL;
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return book;
 	}
+	
 	strcpy(book.filename,dir);
 	strcat(book.filename,filename);
 	book.filename[strlen(dir)+strlen(filename)] = 0;
@@ -1141,7 +1179,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 		book.type = comic_book_dir;
 		closedir(dtest);
 	} else {
-		FILE *magic_check = fopen(book.filename,"rb");
+		FILE *magic_check = fopen(book.filename,"rb"); 
 		if(!magic_check) return book;
 		else {
 			char magic_buf[4];
@@ -1157,10 +1195,14 @@ comic_book open_comic_book(char *dir, char *filename) {
 			fclose(magic_check);
 		}
 	}
+	
+	//set window title
+	SDL_WM_SetCaption( book.filename, NULL );
+	
 	if(book.type == comic_book_zip) {
 		book.zip_file = unzOpen(book.filename);
 		if(book.zip_file == NULL) {
-			error_message(get_message(mesg_open_file_error),"zip");
+			error_message("%s",get_message(mesg_open_file_error),"zip");
 			book.zip_file = NULL;
 			return book;
 		}
@@ -1168,14 +1210,14 @@ comic_book open_comic_book(char *dir, char *filename) {
 		do {
 			char *block = init_block(1);
 			if(!block) {
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				unzClose(book.zip_file);
 				book.zip_file = NULL;
 				return book;
 			}
 			unzGetCurrentFileInfo(book.zip_file,NULL,block,1024,NULL,0,NULL,0);
 			if(block[1023] != 0) {
-				error_message(get_message(mesg_zip_name_too_long_error));
+				error_message("%s",get_message(mesg_zip_name_too_long_error));
 				unzClose(book.zip_file);
 				book.zip_file = NULL;
 				free(block);
@@ -1188,13 +1230,13 @@ comic_book open_comic_book(char *dir, char *filename) {
 			free(block);
 		} while((status = unzGoToNextFile(book.zip_file)) == UNZ_OK);
 		if(status != UNZ_END_OF_LIST_OF_FILE) {
-			error_message(get_message(mesg_read_file_error),"zip");
+			error_message("%s",get_message(mesg_read_file_error),"zip");
 			unzClose(book.zip_file);
 			book.zip_file = NULL;
 			book.num_pages = 0;
 			return book;
 		} else if(book.num_pages < 1) {
-			error_message(get_message(mesg_empty_book_error));
+			error_message("%s",get_message(mesg_empty_book_error));
 			unzClose(book.zip_file);
 			book.zip_file = NULL;
 			return book;
@@ -1206,7 +1248,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 			book.localname = NULL;
 			free(book.filename);
 			book.filename = NULL;
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			return book;
 		}
 		int i;
@@ -1215,7 +1257,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 		for(i = 0; (status == UNZ_OK) && (i < book.num_pages); ++i) {
 			char *block = init_block(1);
 			if(!block) {
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				book.num_pages = 0;
 				unzClose(book.zip_file);
 				book.zip_file = NULL;
@@ -1233,13 +1275,13 @@ comic_book open_comic_book(char *dir, char *filename) {
 	} else if(book.type == comic_book_rar) {
 		void *rar_file = rar_open(book.filename,RAR_OM_LIST);
 		if(!rar_file) {
-			error_message(get_message(mesg_open_file_error),"rar");
+			error_message("%s",get_message(mesg_open_file_error),"rar");
 			book.num_pages = 0;
 			return book;
 		}
 		struct RARHeaderData *hd = calloc(sizeof(struct RARHeaderData),1);
 		if(!hd) {
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			free(book.localname);
 			book.localname = NULL;
 			free(book.filename);
@@ -1257,7 +1299,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 		}
 		rar_close(rar_file);
 		if(status != ERAR_END_ARCHIVE) {
-			error_message(get_message(mesg_read_file_error),"rar");
+			error_message("%s",get_message(mesg_read_file_error),"rar");
 			free(book.localname);
 			book.localname = NULL;
 			free(book.filename);
@@ -1265,7 +1307,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 			book.num_pages = 0;
 			return book;
 		} else if(book.num_pages < 1) {
-			error_message(get_message(mesg_empty_book_error));
+			error_message("%s",get_message(mesg_empty_book_error));
 			free(book.localname);
 			book.localname = NULL;
 			free(book.filename);
@@ -1280,7 +1322,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 			book.localname = NULL;
 			free(book.filename);
 			book.filename = NULL;
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			return book;
 		}
 		int i;
@@ -1291,7 +1333,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 					(ends_with(block,".bmp") > 0) || (ends_with(block,".gif") > 0)) {
 				book.page_order[i] = make_string(block);
 				if(!book.page_order[i]) {
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					book.num_pages = 0;
 					free(book.localname);
 					book.localname = NULL;
@@ -1346,7 +1388,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 			book.localname = NULL;
 			free(book.filename);
 			book.filename = NULL;
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			book.num_pages = 0;
 			return book;
 		}
@@ -1412,17 +1454,22 @@ void close_comic_book(comic_book book) {
 comic_book goto_next_page(comic_book book) {
 	if(book.current_page >= book.num_pages-1) {
 		book.current_page = book.num_pages-1;
-	} else book.current_page++;
+	} else 
+		book.current_page++;
+		
 	return book;
 }
 comic_book goto_prev_page(comic_book book) {
 	if(book.current_page <= 0) {
 		book.current_page = 0;
-	} else book.current_page--;
+	} else 
+		book.current_page--;
+		
 	return book;
 }
 comic_book goto_page(comic_book book, Uint16 page) {
-	if(page < book.num_pages) book.current_page = page;
+	if(page < book.num_pages) 
+		book.current_page = page;
 	return book;
 }
 
@@ -1433,22 +1480,30 @@ event show_menu(comic_book *book) {
 		if(!dtest) {
 			free(cwd);
 			cwd = get_full_path("/");
-			if(!cwd) return init_event(error_ev);
-		} else closedir(dtest);
+			if(!cwd) 
+				return init_event(error_ev);
+		} else 
+			closedir(dtest);
 	}
+	
 	char *lwd = make_string(cwd); //Local working directory
-	if(!lwd) return init_event(error_ev);
+	if(!lwd) 
+		return init_event(error_ev);
+		
 	device acc = access_device(access_joystick);
 	SDL_Joystick *joy = acc.joystick;
 	acc = access_device(access_screen);
 	SDL_Surface *screen = acc.screen;
 	SDL_Surface *bg = get_background();
 	SDL_Surface *usb = get_image(image_usb);
-	if(bg) show_image(bg,0,0,1);
+	if(bg) 
+		show_image(bg,0,0,1);
+		
 	else {
 		clear_screen();
 		flip_screen();
 	}
+	
 	Uint16 current_option = 0, num_options = 0,
 		current_submenu = (book_is_open?menu_in_book:menu_open_book),
 		supermenu = menu_invalid, scroll_offset = 0;
@@ -1481,7 +1536,7 @@ event show_menu(comic_book *book) {
 					run_battery_meter = 0;
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 
@@ -1521,7 +1576,7 @@ event show_menu(comic_book *book) {
 						free(options);
 						free(lwd);
 						if(usb_on) stop_usb();
-						error_message(get_message(mesg_out_of_memory));
+						error_message("%s",get_message(mesg_out_of_memory));
 						return init_event(error_ev);
 						
 					}
@@ -1544,7 +1599,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				options[0].option_text = make_string(get_message(mesg_open_book));
@@ -1635,7 +1690,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 
@@ -1651,7 +1706,7 @@ event show_menu(comic_book *book) {
 						free(options);
 						free(lwd);
 						if(usb_on) stop_usb();
-						error_message(get_message(mesg_out_of_memory));
+						error_message("%s",get_message(mesg_out_of_memory));
 						return init_event(error_ev);
 					}
 					memset(buffer,0,sizeof(char)*80);
@@ -1678,7 +1733,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				options->option_text = make_string(get_message(mesg_adjust_clock_top));
@@ -1703,7 +1758,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				options[0].option_text = (*access_int_global(access_resize)?
@@ -1857,7 +1912,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				num_options = 1;
@@ -1878,7 +1933,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				num_options = 1;
@@ -1898,7 +1953,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 
@@ -1931,7 +1986,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				num_options = 1;
@@ -1952,7 +2007,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 				num_options = 1;
@@ -1972,7 +2027,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 
@@ -2013,7 +2068,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 
@@ -2046,7 +2101,7 @@ event show_menu(comic_book *book) {
 					reset_text_pos();
 					free(lwd);
 					if(usb_on) stop_usb();
-					error_message(get_message(mesg_out_of_memory));
+					error_message("%s",get_message(mesg_out_of_memory));
 					return init_event(error_ev);
 				}
 
@@ -2067,7 +2122,7 @@ event show_menu(comic_book *book) {
 			} break;
 			default:
 				if(usb_on) stop_usb();
-				error_message(get_message(mesg_internal_error));
+				error_message("%s",get_message(mesg_internal_error));
 				return init_event(error_ev);
 			break;
 		}
@@ -2217,11 +2272,11 @@ event show_menu(comic_book *book) {
 							unload_theme();
 							if(load_theme((char*) options[current_option].ptr_data) != 1) {
 								if(load_theme(current_theme) != 1) {
-									error_message(get_message(mesg_load_theme_error));
+									error_message("%s",get_message(mesg_load_theme_error));
 									show_popup(1);
 									exit(2);
 								}
-								error_message(get_message(mesg_load_theme_error));
+								error_message("%s",get_message(mesg_load_theme_error));
 							}
 							free(current_theme);
 							bg = get_background();
@@ -2429,7 +2484,7 @@ event show_menu(comic_book *book) {
 			} break;
 			default:
 				if(usb_on) stop_usb();
-				error_message(get_message(mesg_internal_error));
+				error_message("%s",get_message(mesg_internal_error));
 				return init_event(error_ev);
 			break;
 		}
@@ -2480,7 +2535,7 @@ event show_menu(comic_book *book) {
 								free(lwd);
 								free_event(action);
 								if(usb_on) stop_usb();
-								error_message(get_message(mesg_out_of_memory));
+								error_message("%s",get_message(mesg_out_of_memory));
 								return init_event(error_ev);
 							}
 							memset(buffer,0,strlen((char*)action.ptr_data)+strlen(lwd)+1);
@@ -2513,7 +2568,7 @@ event show_menu(comic_book *book) {
 						free(lwd);
 						free_event(action);
 						if(usb_on) stop_usb();
-						error_message(get_message(mesg_out_of_memory));
+						error_message("%s",get_message(mesg_out_of_memory));
 						return init_event(error_ev);
 					}
 					if((get_book_by_id((char*)action.ptr_data,full_path,&length) < 0) ||
@@ -2540,11 +2595,11 @@ event show_menu(comic_book *book) {
 					unload_theme();
 					if(load_theme((char*) action.ptr_data) != 1) {
 						if(load_theme(current_theme) != 1) {
-							error_message(get_message(mesg_load_theme_error));
+							error_message("%s",get_message(mesg_load_theme_error));
 							show_popup(1);
 							exit(2);
 						}
-						error_message(get_message(mesg_load_theme_error));
+						error_message("%s",get_message(mesg_load_theme_error));
 						action = init_event(no_event);
 						current_option = 0;
 						scroll_offset = 0;
@@ -2570,7 +2625,7 @@ event show_menu(comic_book *book) {
 						if(button == (zoom_in|event_end)) {
 							unload_theme();
 							if(load_theme(current_theme) != 1) {
-								error_message(get_message(mesg_load_theme_error));
+								error_message("%s",get_message(mesg_load_theme_error));
 								show_popup(1);
 								exit(2);
 							}
@@ -2687,7 +2742,7 @@ Uint16 real_file_list(char *dir, event **ptr_to_list, unsigned long user,
 	if(num_options) options = malloc(sizeof(event)*num_options);
 	else return 0;
 	if(!options) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return 0;
 	}
 	dirh = opendir(dir);
@@ -2714,7 +2769,7 @@ Uint16 real_file_list(char *dir, event **ptr_to_list, unsigned long user,
 char cb_criteria(char *dir, struct dirent *filent, unsigned long get_dirs) {
 	char *temp = dir_real_name(filent);
 	if(!temp) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return -1;
 	}
 	char result = 0;
@@ -2738,7 +2793,7 @@ char cb_criteria(char *dir, struct dirent *filent, unsigned long get_dirs) {
 event cb_event_maker(char *dir, struct dirent *filent, unsigned long dummy) {
 	char *temp = dir_real_name(filent);
 	if(!temp) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return init_event(error_ev);
 	}
 	event ret = init_event(no_event);
@@ -2756,7 +2811,7 @@ event cb_event_maker(char *dir, struct dirent *filent, unsigned long dummy) {
 			if(!buffer) {
 				reset_text_pos();
 				free(temp);
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				return init_event(error_ev);
 			}
 			strcpy(buffer,temp);
@@ -2789,7 +2844,7 @@ event cb_event_maker(char *dir, struct dirent *filent, unsigned long dummy) {
 char theme_criteria(char *dir, struct dirent *filent, unsigned long dummy) {
 	char *temp = dir_real_name(filent);
 	if(!temp) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return -1;
 	}
 	if((strcmp(".",temp) == 0) || (strcmp("..",temp) == 0) || !dirent_is_dir(filent,dir)) {
@@ -2822,7 +2877,7 @@ event theme_event_maker(char *dir, struct dirent *filent, unsigned long dummy) {
 char language_criteria(char *dir, struct dirent *filent, unsigned long dummy) {
 	char *temp = dir_real_name(filent);
 	if(!temp) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return -1;
 	}
 	char *ext = strrchr(temp,'.');
@@ -2907,7 +2962,7 @@ char dirent_is_dir(struct dirent *filent, char *dir) {
 	#endif
 	char *temp = malloc(sizeof(char)*namlen);
 	if(!temp) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return -1;
 	}
 	memset(temp,0,namlen);
@@ -3013,7 +3068,7 @@ char* extract_file(comic_book *book, Uint16 page, size_t *size) {
 		return ret;
 		
 	} else {
-		error_message(get_message(mesg_internal_error));
+		error_message("%s",get_message(mesg_internal_error));
 		return NULL;
 	}
 }
@@ -3022,13 +3077,13 @@ char* extract_file_from_zip(unzFile zip, size_t *size) {
 	unzGetCurrentFileInfo(zip,&file_info,NULL,0,NULL,0,NULL,0);
 	char *block = calloc(file_info.uncompressed_size,sizeof(char));
 	if(!block) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return NULL;
 	}
 	unzOpenCurrentFile(zip);
 	int output = unzReadCurrentFile(zip, (voidp)block,file_info.uncompressed_size);
 	if(output < 0) {
-		error_message(get_message(mesg_read_file_error),"zip");
+		error_message("%s",get_message(mesg_read_file_error),"zip");
 		unzCloseCurrentFile(zip);
 		free(block);
 		return NULL;
@@ -3327,7 +3382,7 @@ int main(int argc, char* argv[]) {
 	#endif
 	atexit(_atexit);
 	if(SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_JOYSTICK) < 0) {
-		error_message(get_message(mesg_sdl_error),SDL_GetError());
+		error_message("%s",get_message(mesg_sdl_error),SDL_GetError());
 		return 1;
 	}
 	#if !defined(PSP) && !defined(_WIN32)
@@ -3343,7 +3398,7 @@ int main(int argc, char* argv[]) {
 	init_theme_system();
 	char *real_cb_dir = get_full_path(cb_dir);
 	if(!real_cb_dir) {
-		error_message(get_message(mesg_out_of_memory));
+		error_message("%s",get_message(mesg_out_of_memory));
 		return 1;
 	}
 
@@ -3354,7 +3409,7 @@ int main(int argc, char* argv[]) {
 		else closedir(dtest);
 		char *real_data_dir = get_full_path(data_dir);
 		if(!real_data_dir) {
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			return 1;
 		}
 		dtest = opendir(real_data_dir);
@@ -3365,10 +3420,14 @@ int main(int argc, char* argv[]) {
 
 	if((load_config() == xml_er_subroutine_fail) || ((!get_loaded_theme_name())
 			&& (load_theme("default") != 1))) {
-		error_message(get_message(mesg_load_theme_error));
+		error_message("%s",get_message(mesg_load_theme_error));
 		show_popup(1);
 		return 2;
 	}
+	
+	//we've got video res from the config now. let's reinit the video
+	reinit_video(*access_int_global(access_current_resx),*access_int_global(access_current_resy));
+	
 	save_config(); //Make sure config file is in the right place now
 	load_bookmarks();
 	event obtained_command;
@@ -3380,7 +3439,7 @@ int main(int argc, char* argv[]) {
 		char *buffer = make_string(argv[1]), *temp, *book;
 		free(real_cb_dir);
 		if(!buffer) {
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			return 1;
 		}
 		clear_screen();
@@ -3392,7 +3451,7 @@ int main(int argc, char* argv[]) {
 			cwd = malloc(sizeof(char)*(strlen(buffer)+2));
 			if(!cwd) {
 				free(buffer);
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				return 1;
 			}
 			memset(cwd,0,sizeof(char)*(strlen(buffer)+2));
@@ -3402,7 +3461,7 @@ int main(int argc, char* argv[]) {
 			if(!book) {
 				free(cwd);
 				free(buffer);
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				return 1;
 			}
 		}
@@ -3411,14 +3470,14 @@ int main(int argc, char* argv[]) {
 			cwd = make_string("./");
 			if(!cwd) {
 				free(buffer);
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				return 1;
 			}
 			book = make_string(temp);
 			if(!book) {
 				free(cwd);
 				free(buffer);
-				error_message(get_message(mesg_out_of_memory));
+				error_message("%s",get_message(mesg_out_of_memory));
 				return 1;
 			}
 		}
@@ -3430,7 +3489,7 @@ int main(int argc, char* argv[]) {
 	} else {
 		cwd = real_cb_dir;
 		if(!cwd) {
-			error_message(get_message(mesg_out_of_memory));
+			error_message("%s",get_message(mesg_out_of_memory));
 			return 1;
 		}
 	}
@@ -3445,7 +3504,7 @@ int main(int argc, char* argv[]) {
 						free_event(obtained_command);
 						if(!temp) {
 							free(cwd);
-							error_message(get_message(mesg_out_of_memory));
+							error_message("%s",get_message(mesg_out_of_memory));
 							return 1;
 						}
 						obtained_command = show_book(cwd,temp);

@@ -1,5 +1,7 @@
-all: psp
+all: unix
 .PHONY: docs clean
+
+
 psp:
 	make clean
 	make 3xx
@@ -30,10 +32,10 @@ libxml:
 windows:
 	WINDOWS=1 make -f Makefile.generic
 clean:
-	rm -fv *.o zip/*.o tinyxml/*.o rar/*.o PARAM.SFO EBOOT.PBP pspcomic.prx
-	rm -rfv 3.xx 1.50 
+	rm -rfv 3.xx 1.50 *.o  
 distclean:
 	make clean
+	rm -fv zip/*.o tinyxml/*.o rar/*.o PARAM.SFO EBOOT.PBP pspcomic.prx
 	rm -v *.a
 unix_app:
 	make -f Makefile.generic

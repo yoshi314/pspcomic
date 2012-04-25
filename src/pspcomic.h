@@ -303,7 +303,11 @@ enum access_global_code {
 	///Access analog disabled mode
 	access_analog_disabled,
 	///Access dynamic CPU scaling mode
-	access_dynamic_cpu
+	access_dynamic_cpu,
+	///current window resolution X
+	access_current_resx,
+	///current window resolution Y
+	access_current_resy
 };
 ///Resize methods
 enum resize_method {
