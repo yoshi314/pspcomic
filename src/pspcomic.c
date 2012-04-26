@@ -105,8 +105,9 @@ static void _atexit() {
 inline void sdl_error() {
 	char *e = SDL_GetError();
 	if(strlen(e)) 
-		error_message("%s",get_message(mesg_sdl_error), e);
+		error_message("%s %s",get_message(mesg_sdl_error), e);
 }
+
 void init_video(Uint16 w, Uint16 h) {
 	static char initd = 0;
 	if(initd) return;
@@ -119,7 +120,6 @@ void init_video(Uint16 w, Uint16 h) {
 	if(!screen) {
 		sdl_error();
 	}
-	fprintf(stderr,"init video %i %i\n",w,h);
 }
 
 void reinit_video(Uint16 w, Uint16 h) {
@@ -130,7 +130,10 @@ void reinit_video(Uint16 w, Uint16 h) {
 	*access_int_global(access_current_resy)=h;
 	
 	scr_acc.screen = SDL_SetVideoMode(w,h,0,SDL_HWSURFACE|SDL_DOUBLEBUF|SDL_RESIZABLE);
-	flip_screen();
+
+//	flip_screen();
+	SDL_UpdateRect(scr_acc.screen,0,0,0,0);
+
 }
 
 device access_device(int device_code) {
@@ -382,7 +385,7 @@ event show_book(char *dir, char *book_name) {
 			precacher = SDL_CreateThread(cache_page,&pci);
 			
 		if(!page_img) {
-			error_message("%s",get_message(mesg_sdl_image_error),IMG_GetError());
+			error_message("%s %s",get_message(mesg_sdl_image_error),IMG_GetError());
 			operation.command = error_ev;
 		} else {
 			operation = show_page(page_img,&book,&protation,&pscale_ratio);
@@ -396,14 +399,14 @@ event show_book(char *dir, char *book_name) {
 				if(op2.command == (open_menu|event_end)) {
 					free_event(op2);
 					op2 = show_menu(&book);
-					error_message("%s",get_message(mesg_sdl_image_error),IMG_GetError());
+					error_message("%s %s",get_message(mesg_sdl_image_error),IMG_GetError());
 				}
 				switch(op2.command) {
 					case quit_command: case next_page|event_end: case prev_page|event_end:
 					case jump_page: case close_book: case aux_command:
 						if((op2.command != aux_command) || (op2.int_data == open_book)) break;
 					case redraw_ev:
-						error_message("%s",get_message(mesg_sdl_image_error),IMG_GetError());
+						error_message("%s %s",get_message(mesg_sdl_image_error),IMG_GetError());
 					default: op2.command = no_event;
 				}
 			}
@@ -1202,7 +1205,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 	if(book.type == comic_book_zip) {
 		book.zip_file = unzOpen(book.filename);
 		if(book.zip_file == NULL) {
-			error_message("%s",get_message(mesg_open_file_error),"zip");
+			error_message("%s %s",get_message(mesg_open_file_error),"zip");
 			book.zip_file = NULL;
 			return book;
 		}
@@ -1230,7 +1233,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 			free(block);
 		} while((status = unzGoToNextFile(book.zip_file)) == UNZ_OK);
 		if(status != UNZ_END_OF_LIST_OF_FILE) {
-			error_message("%s",get_message(mesg_read_file_error),"zip");
+			error_message("%s %s",get_message(mesg_read_file_error),"zip");
 			unzClose(book.zip_file);
 			book.zip_file = NULL;
 			book.num_pages = 0;
@@ -1275,7 +1278,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 	} else if(book.type == comic_book_rar) {
 		void *rar_file = rar_open(book.filename,RAR_OM_LIST);
 		if(!rar_file) {
-			error_message("%s",get_message(mesg_open_file_error),"rar");
+			error_message("%s %s",get_message(mesg_open_file_error),"rar");
 			book.num_pages = 0;
 			return book;
 		}
@@ -1299,7 +1302,7 @@ comic_book open_comic_book(char *dir, char *filename) {
 		}
 		rar_close(rar_file);
 		if(status != ERAR_END_ARCHIVE) {
-			error_message("%s",get_message(mesg_read_file_error),"rar");
+			error_message("%s %s",get_message(mesg_read_file_error),"rar");
 			free(book.localname);
 			book.localname = NULL;
 			free(book.filename);
@@ -3083,7 +3086,7 @@ char* extract_file_from_zip(unzFile zip, size_t *size) {
 	unzOpenCurrentFile(zip);
 	int output = unzReadCurrentFile(zip, (voidp)block,file_info.uncompressed_size);
 	if(output < 0) {
-		error_message("%s",get_message(mesg_read_file_error),"zip");
+		error_message("%s %s",get_message(mesg_read_file_error),"zip");
 		unzCloseCurrentFile(zip);
 		free(block);
 		return NULL;
@@ -3382,7 +3385,7 @@ int main(int argc, char* argv[]) {
 	#endif
 	atexit(_atexit);
 	if(SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER | SDL_INIT_JOYSTICK) < 0) {
-		error_message("%s",get_message(mesg_sdl_error),SDL_GetError());
+		error_message("%s %s",get_message(mesg_sdl_error),SDL_GetError());
 		return 1;
 	}
 	#if !defined(PSP) && !defined(_WIN32)
