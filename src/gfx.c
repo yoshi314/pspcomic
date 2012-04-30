@@ -230,7 +230,7 @@ SDL_Surface* rotozoom(SDL_Surface *old, SDL_Rect *clip, Uint16 newW, Uint16 newH
 		SDL_SetAlpha(new_surf,SDL_SRCALPHA,SDL_ALPHA_TRANSPARENT); */
 	SDL_LockSurface(old);
 	SDL_LockSurface(new_surf);
-	Uint32 i, j;
+	Uint32 i = 0, j;
 	Uint8 *new_pixel, *row_start;
 	Uint32 new_pitch = new_surf->pitch;
 	Uint8 bpp = new_surf->format->BytesPerPixel;

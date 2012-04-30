@@ -563,10 +563,10 @@ void draw_zoom_box(SDL_Surface *page_img, float scale_ratio, Uint8 rotation, Sin
 }
 
 int handle_input(char wait) {
-	static int down = 0;
+//	static int down = 0;
 	SDL_Event ev;
-	device joy_acc = access_device(access_joystick);
-	SDL_Joystick *joy = joy_acc.joystick;
+//	device joy_acc = access_device(access_joystick);
+//	SDL_Joystick *joy = joy_acc.joystick;
 	if(wait > 0?SDL_WaitEvent(&ev):SDL_PollEvent(&ev)) {
 		switch(ev.type) {
 			#if defined(PSP) || defined(_WIN32) //This is broken on Linux
